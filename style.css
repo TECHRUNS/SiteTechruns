@@ -17,7 +17,6 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-transform: capitalize;
     text-decoration: none;
     transition: all .2s ease-out;
 }
@@ -141,6 +140,13 @@ h1 span{
     padding: 0 8%;
 }
 
+main{
+    background: transparent;
+    width: 95%;
+    min-height: 380px;
+    margin: 0 auto;
+    padding: 20px;
+}
 /* Bannier section */
 
 .banniere{
@@ -230,7 +236,7 @@ h1 span{
 .about .image-sec{
     float: right;
     width: 45%;
-    border: 10px solid #fff;
+    /*border: 10px solid #fff;*/
     position: relative;
 }
 
@@ -260,6 +266,88 @@ h1 span{
     margin: 10px 0;
     line-height: 1.5;
 }
+/* A propos page*/
+.direction{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.photo{
+    width: 350px;
+    border-radius: 10px;
+}
+.photo_profil{
+    display: flex;
+    align-items: center;
+}
+.infoperso{
+    padding: 50px;
+    align-items: center;
+    width: 60%;
+    background: #187894;
+}
+.infoperso strong{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.infoperso .info span{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.infoperso .info .titre{
+    font-size: 1.5rem;
+    text-transform: none;
+    color: #ddd;
+}
+.infoperso h4{
+    font-size: 1.5rem;
+    margin: 15px 0 5px 0;
+}
+.infoperso p{
+    font-size: 1.5rem;
+    color: #ddd;
+}
+main h3{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eee;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.bgbody{
+    background: url(./images/data.jpg) no-repeat fixed center/cover;
+}
+
+/* fin de page a propos*/
+
+.info{
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.info::after{
+    display: block;
+    font-size: 1.5rem;
+}
+.about_desc{
+ align-items: center;
+ display: flex;
+}
+.about_data{
+    padding: 60px;
+    font-size: 2rem;
+}
+.about_img{
+   width: 280px;
+   height: 380px;
+   border-radius: 1.5rem;
+}
+
+
+
 
 /* Fin About section */ 
 
@@ -516,6 +604,12 @@ footer p{
     .header{
         padding: 2rem;
     }
+    .direction{
+        display: block;
+    }
+    .photo_profil{
+        display: block;
+    }
     .container h1{
         text-align: center;
     }
@@ -543,7 +637,9 @@ footer p{
    #menu-btn{
        display: initial;
    }
-
+   .header{
+       padding: 10px 10px;
+   }
    .header .navbar{
        position: absolute;
        top: 115%;
@@ -672,6 +768,23 @@ footer p{
         display: block;
         margin-top: 25px;
     }
+    .direction{
+        display: block;
+        padding: 20px 0;
+    }
+    .photo{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .photo_profil{
+        display: block;
+    }
+    .infoperso{
+        
+        align-items: center;
+        width: 100%;
+        background: #187894;
+    }
     .contact{
        padding: 10px;
     }
@@ -731,7 +844,6 @@ footer p{
     h3{
         font-size: 2.8rem;
     }
-
     .btn{
         font-size: 2.5rem;
     }
@@ -743,7 +855,7 @@ footer p{
         font-size: 7rem;
     }
     .banniere .content p{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .banniere .content a{
         font-size: 2.5rem;
@@ -829,7 +941,6 @@ footer p{
         font-weight: 500;
     }
 
-  
     .contact .container1{
         display: block;
     }
@@ -855,6 +966,13 @@ footer p{
     }
     .contact .container1 .contactform .text{
         font-size: 2.5rem;
+    }
+    footer{
+        padding: 20px 10px;
+    }
+    footer .navbar a{
+        font-size: 1.4rem;
+        margin: 0 3px;
     }
 }
 
