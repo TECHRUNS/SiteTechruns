@@ -10,49 +10,68 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <a href="https://icons8.com/icon/pZMQGYf0Z6Yp/code">Code icon by Icons8</a>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- header section -->
 
-    <header class="header">
-        <a href="" class="logo">
-            <img src="images/LOGO.png" alt="">
-        </a>
-        <nav class="navbar">
-            <a href="#accueil">Accueil</a>
-            <a href="./about.html">A Propos</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="logo"><img src="./images/LOGO.png" alt=""></a>
 
-        <div id="menu-btn" class="fas fa-bars"></div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="navitem">
+                        <a href="#acceuil" class="nav_link active-link">Acceuil</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./about.php" class="nav_link">A Propos</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#services" class="nav_link">Services</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav_close" id="nav-close" ></i>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </nav>
     </header>
     <!-- End header section -->
 
     <!-- banniere section -->
-    <section class="banniere" id="#banniere">
+    <!--<section class="banniere" id="#banniere">-->
+    <div id="acceuil">
+        <section class="banniere" id="#banniere">
 
-        <div class="content">
-            <h2>Teckruns</h2>
-            <p>une Equipe, <span>des Experts</span></p>
-            <a href="#Contact" class="btn">Contactez Nous<span class="fas fa-chevron-right"></span></a>
-        </div>
-
-    </section>
+            <div class="content">
+                <h2>Teckruns</h2>
+                <p>une Equipe, <span>des Experts</span></p>
+                <a href="#Contact" class="btn nav_link">Contactez Nous<span class="fas fa-chevron-right"></span></a>
+            </div>
+    
+        </section>
+    </div>
 
     <!-- End banniere section -->
 
     <!--About section-->
     <section class="about">
-       <div class="container">
+       <div class="container" id="about">
            <div class="content-sec">
                 <div class="titre"><h1>A Propos de <span>nous</span></h1></div>
                 <div class="content">
                     <h3>Qui sommes-nous</h3>
                     <p>Teckruns est une équipe des jeunes professionnelles, 
-                        experts, dynamique et expérimentées qui s'engage à 
+                        experts, dynamique et expérimentés qui s'engagent à 
                         apporter des solutions adéqute à votre entreprise .</p>
-                    <a href="./about.html" class="btn">En savoir plus</a>
+                    <a href="./about.php" class="btn">En savoir plus</a>
                 </div> 
                 <ul class="icon-soc">
                     <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
@@ -71,7 +90,7 @@
     <!-- service section -->
 
     <main>
-        <div class="container">
+        <div class="container" id="services">
             <h1> <span>Nos</span> Services</h1>
             <div class="row">
                 <div class="service">
@@ -137,22 +156,23 @@
     <!-- End service section -->
 
     <!--Contact Section-->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <h1>Contactez <span>Nous</span></h1>
-            <div class="container1">
-                <div class="contactinfo">
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-phone" aria-hidden="true"></i>                    
-                        </div>
-                        <div class="text">
-                            <h2>Telephone</h2>
-                            <p>
-                                +228 90 47 88 <br>
-                                +33 7 55 89 13 21
-                            </p>
-                        </div>
+        </div>
+        <div class="container1">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>                    
+                    </div>
+                    <div class="text">
+                        <h2>Telephone</h2>
+                        <p>
+                            +228 90 47 88 /
+                            +33 7 55 89 13 21
+                        </p>
+                    </div>
                     </div>
                     <div class="box">
                         <div class="icon">
@@ -193,7 +213,6 @@
                     </form>
                 </div>
             </div>
-        </div>
     </section>
     <!--End Contact Section-->
     <!--footer section-->
@@ -201,16 +220,22 @@
            <!-- <h2>Suivez nous sur :</h2> --> 
             
             <nav class="navbar">
-                <a href="#Accueil">Accueil</a>
-                <a href="./about.html">A Propos</a>
-                <a href="#Services">Services</a>
-                <a href="#Contact">Contact</a>
+                <a href="#accueil" class="nav_link">Accueil</a>
+                <a href="./about.php" class="nav_link">A Propos</a>
+                <a href="#services" class="nav_link">Services</a>
+                <a href="#contact" class="nav_link">Contact</a>
             </nav>
             <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
+
+    <!-- scroll up -->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup_icon"></i>
+    </a>
    
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
 </body>
 </html>

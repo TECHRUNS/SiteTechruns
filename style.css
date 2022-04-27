@@ -31,48 +31,81 @@ body{
     background: #eee;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 .header{
-    padding: 10px 100px;
+    width: 100%;
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    background: #187894;
+    padding: 10px;
     z-index: 1000;
-    box-shadow: 0 .5rem 1.5rem rgba(12, 67, 107, .2);
+}
+
+.nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background: #fff;
+    align-items: center;
+    height: 90px;
 }
 
 .header .logo img{
-    height: 5.5rem;
+    height: 5.8rem;
 }
 
-.header .navbar a{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #187894;
-    margin-left: 2rem;
-    text-transform: uppercase;
+.nav_toggle{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.nav_menu{
     position: relative;
 }
+.nav_list{
+    flex-direction: row;
+    column-gap: 4rem;
+    font-size: 1.3rem;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_toggle,
+.nav_close{
+    display: none;
+}
 
-.header .navbar a::after{
+.active-link{
+    position: relative;
+}
+.active-link::before{
+    content: '';
     position: absolute;
-    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    bottom: -.75rem;
     left: 0;
-    content: "";
-    width: 0;
-    height: 3px;
-    border-radius: 5px;
-    background-color: #0c436b;
-    transition: 0.5s;
 }
 
-.header .navbar a:hover{
-    color: #0c436b;
+.nav_link{
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-.header .navbar a:hover::after{
-    width: 100%;
+.nav_link:hover{
+    color: #777;
+    opacity: 2;
 }
 
 #menu-btn{
@@ -140,15 +173,6 @@ h1 span{
     padding: 0 8%;
 }
 
-main{
-    background: transparent;
-    width: 95%;
-    min-height: 380px;
-    margin: 0 auto;
-    padding: 20px;
-}
-/* Bannier section */
-
 .banniere{
     background-image: url(images/data.jpg);
     background-repeat: no-repeat;
@@ -158,6 +182,7 @@ main{
     text-align: center;
     padding: 150px;
     box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
 }
 
 .banniere .content h2{
@@ -168,10 +193,6 @@ main{
     text-transform: uppercase;
 }
 
-.banniere .about h2{
-    color: #eee;
-    font-size: 4rem;
-}
 .banniere .content p{
     font-size: 3rem;
     color: #eee;
@@ -181,12 +202,18 @@ main{
 }
 
 .banniere .content p span{
-    color: #187894;
+    color: #0c436b;
     font-weight: 600;
 }
 
 .banniere .content a{
     color: #fff;
+}
+
+.banniere .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
 }
 
 /* Fin banniere section */
@@ -209,6 +236,8 @@ main{
     float: left;
     width: 50%;
     padding-right: 50px;
+    animation: slideDown1 3s;
+    z-index: -1;
 }
 
 .about .content-sec .icon-soc{
@@ -241,6 +270,7 @@ main{
     float: right;
     width: 45%;
     position: relative;
+    animation: slideDown 3s;
 }
 
 .about .image-sec::after{
@@ -273,7 +303,7 @@ main{
 .direction{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 40px;
 }
 .photo{
     width: 350px;
@@ -282,22 +312,29 @@ main{
 .photo_profil{
     display: flex;
     align-items: center;
+    animation: slideDown 3s;
 }
 .infoperso{
-    padding: 50px;
+    color: #eee;
+    background: rgba(24, 120, 148, 0.5);
+    padding: 70px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(2 2 2 /5%);
     align-items: center;
-    width: 60%;
-    background: #187894;
+    width: 65%;
+    animation: slideDown1 3s;
 }
 .infoperso strong{
     font-size: 1.8rem;
     font-weight: 600;
+    line-height: 1.8;
+    color: #444;
 }
 .infoperso .info span{
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .infoperso .info .titre{
     font-size: 1.5rem;
@@ -306,17 +343,21 @@ main{
 }
 .infoperso h4{
     font-size: 1.5rem;
-    margin: 15px 0 5px 0;
+    margin: 25px 0 5px 0;
 }
 .infoperso .description{
     font-size: 1.5rem;
     color: #ddd;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 10px;
 }
 main h3{
     font-size: 2rem;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: #eee;
+    color: #0c436b;
     margin-top: 10px;
     padding-top: 30px;
 }
@@ -335,7 +376,7 @@ main h3{
 }
 
 .infoperso .icon-soc li a{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
@@ -389,6 +430,7 @@ main h3{
     cursor: pointer;
     background: transparent;
     box-shadow: var(--box-shadow);
+    animation: slideDown1 3s;
 }
 
 .service h2{
@@ -408,15 +450,14 @@ main h3{
 .contact{
     position: relative;
     min-height: 100vh;
-    padding: 50px 0;
+    padding: 50px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-size: cover;
 }
 
-.contact .content{
+.contact .container{
     max-width: 800px;
     text-align: center;
 }
@@ -424,55 +465,52 @@ main h3{
 .contact .container1{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .contact .container1 .contactinfo{
     width: 45%;
     display: flex;
     flex-direction: column;
-    padding-right: 80px;
+    animation: slideDown1 3s;
 }
 
 .contact .container1 .contactinfo .box{
     position: relative;
     padding: 20px 0;
     display: flex;
-    border-radius: 1rem;
-    box-shadow: var(--box-shadow);
-    margin: 20px 0;
-    background-color: #fff;
-}
-
-.contact .container1 .contactinfo .box:hover{
-    box-shadow: 0 0 5px 0 #0c436b;
+    border-radius: 5px;
 }
 
 .contact .container1 .contactinfo .box .icon{
-    min-width: 50px;
-    height: 50px;
+    min-width: 60px;
+    height: 60px;
     background: #187894;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20%;
-    font-size: 22px;
-    margin: 0 10px;
+    font-size: 2.5rem;
 }
 
 .contact .container1 .contactinfo .box .text{
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
-    color: #187894;
+    font-size: 2.5rem;
     flex-direction: column;
-    font-weight: 300;
+    font-weight: 500;
+    padding: 0;
 }
 
-.contact .container1 h2{
+.contact .container1 .contactinfo .box .text h2{
     font-weight: 500;
     color: #0c436b;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
+}
+.contact .container1 .contactinfo .box .text p{
+    color:var(--black);
 }
 
 .contact .container1 .contactform{
@@ -481,6 +519,7 @@ main h3{
     background: #fff;
     box-shadow: 0 0 300px 0 #187894;
     margin-top: 20px;
+    animation: slideDown 3s;
 }
 
 .contact .container1 .contactform .inputbox{
@@ -571,11 +610,6 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-/*footer h2{
-    font-size: 2.5rem;
-    color: #fff;
-    margin-bottom: 20px;
-}*/
 
 footer .navbar a{
     font-size: 1.5rem;
@@ -599,6 +633,56 @@ footer p{
     font-size: 1.5rem;
 }
 
+/*scroll up */
+
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: #187894;
+    padding: .5rem;
+    display: flex;
+    opacity: .9;
+    z-index: 2;
+    transition: .4s;
+}
+.scrollup_icon{
+    color: #fff;
+    font-size: 4rem;
+    border: 2px solid;
+}
+.scrollup:hover{
+    background-color: #0c436b;
+    opacity: 2;
+}
+
+/*show scroll */
+.show-scroll{
+    bottom: 5rem;
+}
+
+@keyframes slideDown {
+    from{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown1 {
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 @media (max-width:965){
     html{
@@ -612,6 +696,16 @@ footer p{
     }
     .photo_profil{
         display: block;
+    }
+    .infoperso{
+        color: #eee;
+        background: rgba(24, 120, 148, 0.5);
+        padding: 70px;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(2 2 2 /5%);
+        align-items: center;
+        width: 65%;
+        animation: slideDown1 3s;
     }
     .container h1{
         text-align: center;
@@ -640,74 +734,47 @@ footer p{
    #menu-btn{
        display: initial;
    }
-   .header{
-       padding: 10px 10px;
-   }
-   .header .navbar{
-       position: absolute;
-       top: 115%;
-       right: 2rem;
-       border-radius: .5rem;
-       box-shadow: var(--box-shadow);
-       width: 20rem;
-       border: var(--border);
-       background: #fff;
-       opacity: 0;
-       transform: scale(0);
-       transform-origin: top right;
-       transition: none;
-   }
+    .btn{
+    font-size: 2rem;
+    }
+   
+    .nav_menu{
+        position: fixed;
+        background-color: #0c436b;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100%;
+        padding: 3rem;
+        transition: .4s;
+        box-shadow: -1px 0 4px rgba(22, 255, 5, 64%, 15%, .15);
+    }
 
-   .header .navbar.active{
-       transform: scale(1);
-       opacity: 1;
-       transition: .2s ease-out;
-   }
+    .nav_list{
+        display: block;
+        text-align: center;
+    }
+    .navitem{
+        margin: 25px 0;
+        padding: 8px 0; 
+        font-size: 2rem;
+    }
+    .nav_toggle,
+    .nav_close{
+        display: initial;
+    }
+
    .header .navbar a{
-       font-size: 1.7rem;
+       font-size: 1.8rem;
        display: block;
        margin: 25px 0;
        padding: 8px 0;
        text-align: center;
    }
-   .header .navbar a::before{
-    position: absolute;
-    top: -5px;
-    right: 0;
-    content: "";
-    width: 0;
-    height: 3px;
-    border-radius: 5px;
-    background-color: #187894;
-    transition: 0.5s;
-    }
-    .header .navbar a:hover{
-        color: #187894;
-    }
-    .header .navbar a:hover::before{
-        width: 90px;
-    }
-    .header .navbar a::after{
-        position: absolute;
-        bottom: -5px;
-        left: 0;
-        content: "";
-        width: 0;
-        height: 3px;
-        border-radius: 5px;
-        background-color: #0c436b;
-        transition: 0.5s;
-    }
-    .header .navbar a:hover{
-        color: #0c436b;
-    }
-    .header .navbar a:hover::after{
-        width: 90px;
-    }
-
+    
    h1{
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 4.5rem;
         font-weight: 500;
     }
 
@@ -721,7 +788,7 @@ footer p{
         font-size: 4rem;
     }
     .banniere .content a{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .container h1{
@@ -745,7 +812,13 @@ footer p{
         text-align: center;
     }
     .about .content-sec .titre h1{
-        font-size: 25px;
+        font-size:4.5rem;
+    }
+    .about .content-sec .content h3{
+        font-size: 3rem;
+    }
+    .about .content-sec .content p{
+        font-size: 1.8rem;
     }
     .about .image-sec{
         float: none;
@@ -788,13 +861,19 @@ footer p{
         width: 100%;
         background: #187894;
     }
+
+    .service h2{
+        font-size: 2.2rem;
+    }
+    .service p{
+        font-size: 1.8rem;
+    }
     .contact{
        padding: 10px;
     }
-    .contact .container1 h1{
-        margin: 0;
-    }
+
     .contact .container1{
+        display: block;
         width: 100%;
     }
     .contact .container1 .contactinfo{
@@ -811,15 +890,16 @@ footer p{
     }
     .contact .container1 h2{
         font-size: 2.5rem;
+        padding-top: 5px;
     }
     .contact .container1 .contactinfo .box .text p{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .contact .container1 .contactform{
-        margin: 20px 0 20px 20px;
+        width: 100%;
     }
     .contact .container1 .contactform .text{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     main{
@@ -836,7 +916,7 @@ footer p{
 
     h1{
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 4.5rem;
         font-weight: 500;
     }
 
@@ -848,7 +928,7 @@ footer p{
         font-size: 2.8rem;
     }
     .btn{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .banniere .content{
@@ -863,17 +943,17 @@ footer p{
         margin-top: 50px;
     }
     .banniere .content p{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
     .banniere .content a{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .about .content-sec .content p{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
     .about .content-sec .titre h1{
-        font-size: 25px;
+        font-size: 4.5rem;
     }
    
     .about .image-sec img{
@@ -881,39 +961,33 @@ footer p{
         width: 100%;
         display: block;
         margin-top: 25px;
-    }*/
+    }
 
+    .service h2{
+        font-size: 3rem;
+    }
     .service p{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
     
     .contact .container1{
         display: block;
     }
-    .contact .container .container1 h2{
-        font-size: 3.5rem;
-    }
+
     .contact .container1 .contactinfo{
         width: 100%;
     }
     .contact .container1 .contactinfo .box{
-        position: relative;
-        display: flex;
-       
+        display: block;
     }
     .contact .container1 .contactinfo .box:hover{
         box-shadow: 0 0 5px 0 #0c436b;
     }
     .contact .container1 .contactinfo .box .icon{
-        min-width: 50px;
-        height: 50px;
-        background: #187894;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20%;
-        font-size: 22px;
-        margin: 0 20px;
+        margin: 0 125px;
+        height: 60px;
+        width: 60px;
+        margin: 0 auto;
     }
     .contact .container1 .contactinfo .box .text{
         display: flex;
@@ -923,7 +997,7 @@ footer p{
         font-weight: 300;
     }
     .contact .container1 h2{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .contact .container1 .contactinfo .box .text p{
         font-size: 2.5rem;
@@ -945,8 +1019,14 @@ footer p{
 
     h1{
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 4rem;
         font-weight: 500;
+    }
+    .btn{
+        font-size: 2.5rem;
+    }
+    .about .content-sec .titre h1{
+        font-size: 4rem;
     }
 
     .contact .container1{
@@ -959,15 +1039,17 @@ footer p{
         display: block;
     }
     .contact .container1 .contactinfo .box .icon{
-        margin: 0 140px;
+        margin: 0 auto;
         width: 50px;
         height: 50px;
     }
     .contact .container1 h2{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
+        text-align: center;
     }
     .contact .container1 .contactinfo .box .text p{
-        font-size: 2.5rem;
+        font-size: 2.8rem;
+        text-align: center;
     }
     .contact .container1 .contactform{
         width: 100%;
@@ -979,11 +1061,24 @@ footer p{
         padding: 20px 10px;
     }
     footer .navbar a{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         margin: 0 3px;
     }
 }
+/* nav close */
+.nav_close{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+}
 
+.show-menu{
+    right: 0;
+}
+.active-link
 
 
 

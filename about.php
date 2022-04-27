@@ -11,22 +11,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <a href="https://icons8.com/icon/pZMQGYf0Z6Yp/code">Code icon by Icons8</a>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 <body class="bgbody"> 
     <!-- header section -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="logo"><img src="./images/LOGO.png" alt=""></a>
 
-    <header class="header">
-        <a href="" class="logo">
-            <img src="images/LOGO.png" alt="">
-        </a>
-        <nav class="navbar">
-            <a href="./index.html">Accueil</a>
-            <a href="">A Propos</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="navitem">
+                        <a href="./index.php" class="nav_link active-link">Acceuil</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#about" class="nav_link">A Propos</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./index.php" class="nav_link">Services</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./index.php" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav_close" id="nav-close" ></i>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
         </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
     </header>
     <!-- End header section -->
     <!-- Banner section -->
@@ -93,14 +108,18 @@
         <!-- <h2>Suivez nous sur :</h2> --> 
          
          <nav class="navbar">
-             <a href="#Accueil">Accueil</a>
-             <a href="#A Propos">A Propos</a>
-             <a href="#Services">Services</a>
-             <a href="#Contact">Contact</a>
+             <a href="./index.php" class="nav_link">Accueil</a>
+             <a href="#about" class="nav_link">A Propos</a>
+             <a href="./index.php" class="nav_link">Services</a>
+             <a href="./index.php" class="nav_link">Contact</a>
          </nav>
             <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
+
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup_icon"></i>
+    </a>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
