@@ -179,25 +179,45 @@
                     <form action="">
                         <h2>Envoyer le Message</h2>
                         <div class="inputbox">
-                            <input type="text" name="" required="required">
-                            <span>Nom de l'Entreprise</span>
-                        </div>
-                        <div class="inputbox">
-                            <input type="text" name="" required="required">
+                            <input type="text" name="nom" required="required">
                             <span>Votre Nom complet</span>
                         </div>
                         <div class="inputbox">
-                            <input type="email" name="" required="required">
+                            <input type="text" name="nom_entreprise" required="required">
+                            <span>Nom de l'Entreprise</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="email" name="email" required="required">
                             <span>Votre Email</span>
                         </div>
                         <div class="inputbox">
-                            <textarea name="" id="" cols="30" rows="10" required="required"></textarea>
+                            <textarea name="message" cols="30" rows="10" required="required"></textarea>
                             <span>Votre Message</span>
                         </div>
-                        <input type="submit" class="btn" name="" value="Envoyer Message">
+                        <input type="submit" class="btn" value="Envoyer Le Message">
                     </form>
                 </div>
             </div>
+            <!-- alert du message envoyer -->
+            
+            <?php 
+            if (isset($_POST["message"])){
+                $message = "Ce message vous a été envoyer depuis la page Contact du site teckruns.com
+                Nom de l'Epediteur : " . $_POST["nom"] . "
+                Nom d'Entreprise : " . $_POST["nom_entreprise"] . "
+                Email : " . $_POST["email"] . "
+                Message : " . $_POST["message"];
+
+                $reponse = mail("techruns228@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
+                if ($reponse){
+                    $alert = '<div class="alert-success">
+                            <span>Message envoyé! Merci de nous avoir contacter.</span>
+                            </div>';
+                    echo $alert;
+                }
+            }
+            ?>
+
     </section>
     <!--End Contact Section-->
     <!--footer section-->
