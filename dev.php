@@ -91,7 +91,7 @@
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>
         <div class="row">
-            <a href="" class="service">
+            <a href="./dev.php" class="service">
                 <img src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-code-seo-xnimrodx-blue-xnimrodx.png"/>
                 <h2>Dévéloppement d'Application Web</h2>
                 <p>
@@ -99,7 +99,7 @@
                 </p>
             </a>
 
-            <a href="./reseau.html" class="service">
+            <a href="./reseau.php" class="service">
                 <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-connectivity-network-architecture-soft-fill-soft-fill-juicy-fish.png"/>
                 <h2>Réseaux Informatique</h2>
                 <p>
@@ -107,7 +107,7 @@
                 </p>
             </a>
                 
-            <a href="" class="service">
+            <a href="./devo.php" class="service">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="50" height="50"
                 viewBox="0 0 172 172"
@@ -118,7 +118,7 @@
                 </p>
             </a>
 
-            <a href="" class="service">
+            <a href="./securite_info.php" class="service">
                 <img src="https://img.icons8.com/external-itim2101-blue-itim2101/64/000000/external-internet-security-network-technology-itim2101-blue-itim2101.png"/>
                 <h2>Sécurité/Audi Informatique</h2>
                 <p>
@@ -126,7 +126,7 @@
                 </p>
             </a>
             
-            <a href="" class="service">
+            <a href="./donnees.php" class="service">
                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-cyber-security-kiranshastry-lineal-color-kiranshastry-3.png"/>
                 <h2>Gestion des Données</h2>
                 <p>

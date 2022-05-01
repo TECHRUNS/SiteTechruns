@@ -58,37 +58,41 @@
         </section>
     </div>
 
-    <!-- section service -->
-    <main class="nosservice">
-        <div class="text_para">
-            <h3>Nos services en DevOps</h3>
-            <h4>Rendre votre système plus automate</h4>
-            <p>
-                Optimiser les performances de vos systèmes d'informations en les rendant plus automate afin d'accelerer votre productivité.
-                Notre équipe est là pour changer votre système en un système plus automate.                système informatique en fonction de votre bésoin.
-            </p>
-        </div>
+    <!-- End banniere section -->
 
-            <h3>solutions offertes</h3>
-
-        <div class="solut">
-            <div class="presta">
-                <ul class="check_list">
-                    <li><i class="ri-check-double-line"></i>automatisation des t</li>
-                    <li><i class="ri-check-double-line"></i>Jinkins, Ansible...</li>
-                    <li><i class="ri-check-double-line"></i>AWS ...</li>
-                    <li><i class="ri-check-double-line"></i>Conteneurisation docker, Kubernetes</li>
+    <!--About section-->
+    <section class="about">
+       <div class="container" id="about">
+           <div class="content-sec">
+                <div class="titre"><h1>A Propos de <span>nous</span></h1></div>
+                <div class="content">
+                    <h3>Qui sommes-nous</h3>
+                    <p>Teckruns est une équipe des jeunes professionnelles, 
+                        experts, dynamique et expérimentés qui s'engagent à 
+                        apporter des solutions adéqute à votre entreprise .</p>
+                    <a href="./about.php" class="btn">En savoir plus</a>
+                </div> 
+                <ul class="icon-soc">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
                 </ul>
             </div>
-        </div>
-        
-    </main>
-    <span></span>
+            <div class="image-sec">
+                <img src="images/banniere.jpg" alt="">
+            </div>
+       </div>  
+    </section>
+    <!--End About Section-->
 
+    <!-- service section -->
+
+    <main>
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>
         <div class="row">
-            <a href="" class="service">
+            <a href="./dev.php" class="service">
                 <img src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-code-seo-xnimrodx-blue-xnimrodx.png"/>
                 <h2>Dévéloppement d'Application Web</h2>
                 <p>
@@ -96,7 +100,7 @@
                 </p>
             </a>
 
-            <a href="./reseau.html" class="service">
+            <a href="./reseau.php" class="service">
                 <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-connectivity-network-architecture-soft-fill-soft-fill-juicy-fish.png"/>
                 <h2>Réseaux Informatique</h2>
                 <p>
@@ -104,7 +108,7 @@
                 </p>
             </a>
                 
-            <a href="" class="service">
+            <a href="./devo.php" class="service">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 width="50" height="50"
                 viewBox="0 0 172 172"
@@ -115,7 +119,7 @@
                 </p>
             </a>
 
-            <a href="" class="service">
+            <a href="./securite_info.php" class="service">
                 <img src="https://img.icons8.com/external-itim2101-blue-itim2101/64/000000/external-internet-security-network-technology-itim2101-blue-itim2101.png"/>
                 <h2>Sécurité/Audi Informatique</h2>
                 <p>
@@ -123,7 +127,7 @@
                 </p>
             </a>
             
-            <a href="" class="service">
+            <a href="./donnees.php" class="service">
                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-cyber-security-kiranshastry-lineal-color-kiranshastry-3.png"/>
                 <h2>Gestion des Données</h2>
                 <p>
@@ -132,11 +136,12 @@
             </a>
         </div>
     </div>
+    </main>
+    
+    <!-- End service section -->
 
-    <!-- Fin service -->
-
-     <!--Contact Section-->
-     <section class="contact" id="contact">
+    <!--Contact Section-->
+    <section class="contact" id="contact">
         <div class="container">
             <h1>Contactez <span>Nous</span></h1>
         </div>
@@ -153,11 +158,11 @@
                             +33 7 55 89 13 21
                         </p>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
                         <div class="text">
                             <h2>Email</h2>
                             <p>techruns228@gmail.com</p>
