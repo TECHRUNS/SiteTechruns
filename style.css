@@ -49,7 +49,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    background: #187894;
+    background: #fff;
     padding: 10px;
     z-index: 1000;
 }
@@ -99,12 +99,12 @@ img{
 }
 
 .nav_link{
-    color: #fff;
-    font-weight: 400;
+    color: #0c436b;
+    font-weight: bold;
     text-transform: uppercase;
 }
 .nav_link:hover{
-    color: #777;
+    color: rgba(24, 120, 148, 0.5);
     opacity: 2;
 }
 
@@ -139,14 +139,6 @@ section{
     color: #fff;
 }
 
-.btn span{
-    padding: .7rem 1rem;
-    border-radius: .5rem;
-    background: var(--blue);
-    color: #fff;
-    margin-left: .5rem;
-}
-
 .btn:hover span{
     color: var(--blue);
     background: #fff;
@@ -160,7 +152,7 @@ h1{
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 h1 span{
     color: #187894;
@@ -443,6 +435,56 @@ main h3{
     color: #fff;
     transform: scale(1.05);
 }
+
+.nosservice{
+    width: 90%;
+    padding: 40px 70px;
+    background: rgba(24, 120, 148, 0.5);
+    margin: 0 auto;
+}
+.nosservice .text_para h4{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 40px;
+}
+.nosservice .text_para{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.nosservice .text_para p{
+    text-align: center;
+    padding: 20px;
+}
+.nosservice .solut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nosservice .solut .presta{
+    position: relative;
+}
+.nosservice .solut .check_list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 4rem;
+    font-size: 1.5rem;
+    padding: 30px 0;
+}
+.nosservice .check_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+}
+.nosservice .ri-check-double-line{
+    color: #0c436b;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
 /* fin service section */
 
 /* contact section */
@@ -450,7 +492,7 @@ main h3{
 .contact{
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,7 +513,7 @@ main h3{
 }
 
 .contact .container1 .contactinfo{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     animation: slideDown1 3s;
@@ -491,13 +533,14 @@ main h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 50%;
     font-size: 2.5rem;
+    margin-right: 20px;
+    color: #fff;
 }
 
 .contact .container1 .contactinfo .box .text{
     display: flex;
-    margin-left: 20px;
     font-size: 2.5rem;
     flex-direction: column;
     font-weight: 500;
@@ -507,7 +550,7 @@ main h3{
 .contact .container1 .contactinfo .box .text h2{
     font-weight: 500;
     color: #0c436b;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .contact .container1 .contactinfo .box .text p{
     color:var(--black);
@@ -520,6 +563,10 @@ main h3{
     box-shadow: 0 0 300px 0 #187894;
     margin-top: 20px;
     animation: slideDown 3s;
+}
+
+.contact .container1 .contactform h2{
+    font-size: 2.8rem;
 }
 
 .contact .container1 .contactform .inputbox{
@@ -717,7 +764,8 @@ footer p{
         padding: 2rem;
     }
     .contact{
-        padding: 50px;
+        padding: 10px;
+        justify-content: space-between;
     }
     .contact .container1{
         flex-direction: column;
@@ -868,6 +916,14 @@ footer p{
     .service p{
         font-size: 1.8rem;
     }
+
+    .nosservice .solut{
+        display: block;
+    }
+    .nosservice .solut .check_list{
+        display: block;
+    }
+
     .contact{
        padding: 10px;
     }
@@ -875,25 +931,6 @@ footer p{
     .contact .container1{
         display: block;
         width: 100%;
-    }
-    .contact .container1 .contactinfo{
-        padding: 0;
-    }
-    .contact .container1 .contactinfo .box{
-        display: block;
-    }
-    .contact .container1 .contactinfo .box .icon{ 
-        margin: 0 125px;
-     }
-    .contact .container1 .contactinfo .box .text{
-       text-align: center;
-    }
-    .contact .container1 h2{
-        font-size: 2.5rem;
-        padding-top: 5px;
-    }
-    .contact .container1 .contactinfo .box .text p{
-        font-size: 2.5rem;
     }
     .contact .container1 .contactform{
         width: 100%;
@@ -970,38 +1007,15 @@ footer p{
         font-size: 2.8rem;
     }
     
-    .contact .container1{
-        display: block;
-    }
-
-    .contact .container1 .contactinfo{
-        width: 100%;
-    }
-    .contact .container1 .contactinfo .box{
-        display: block;
-    }
-    .contact .container1 .contactinfo .box:hover{
-        box-shadow: 0 0 5px 0 #0c436b;
-    }
-    .contact .container1 .contactinfo .box .icon{
-        margin: 0 125px;
-        height: 60px;
-        width: 60px;
-        margin: 0 auto;
-    }
-    .contact .container1 .contactinfo .box .text{
-        display: flex;
-        margin-left: 30px;
-        color: #187894;
-        flex-direction: column;
-        font-weight: 300;
-    }
-    .contact .container1 h2{
-        font-size: 3rem;
-    }
-    .contact .container1 .contactinfo .box .text p{
-        font-size: 2.5rem;
-    }
+    .contact{
+        padding: 10px;
+     }
+ 
+     .contact .container1{
+         display: block;
+         width: 100%;
+     }
+    
     .contact .container1 .contactform{
         width: 100%;
         margin: 0;
@@ -1011,7 +1025,6 @@ footer p{
     }
 }
 
-
 @media (max-width:450px){
     html{
         font-size: 50%;
@@ -1019,14 +1032,35 @@ footer p{
 
     h1{
         text-transform: uppercase;
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 500;
+    }
+
+    p{
+        font-size: 2.1rem;
+        line-height: 3rem;
+    }
+    .nosservice{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .nosservice .text_para p{
+        padding: 30px 0;
+        text-align: justify;
+        line-height: 3rem;
+    }
+    .nosservice .solut .check_list li{
+        font-size: 1.8rem;
+        line-height: 2.8rem;
     }
     .btn{
         font-size: 2.5rem;
     }
     .about .content-sec .titre h1{
         font-size: 4rem;
+    }
+    .about .content-sec p{
+        text-align: center;
     }
 
     .contact .container1{
@@ -1040,22 +1074,25 @@ footer p{
     }
     .contact .container1 .contactinfo .box .icon{
         margin: 0 auto;
-        width: 50px;
-        height: 50px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
     }
-    .contact .container1 h2{
-        font-size: 3.5rem;
-        text-align: center;
+    .contact .container1 .contactinfo .box .text{
+        margin: 0 auto;
+    }
+    .contact .container1 .contactinfo .box .text h2{
+        font-size: 3rem;
+        margin: 0 auto;
     }
     .contact .container1 .contactinfo .box .text p{
-        font-size: 2.8rem;
-        text-align: center;
+        margin: 0 auto;
     }
     .contact .container1 .contactform{
         width: 100%;
     }
-    .contact .container1 .contactform .text{
-        font-size: 2.5rem;
+    .contact .container1 .contactform h2{
+        font-size: 3rem;
     }
     footer{
         padding: 20px 10px;
