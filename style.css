@@ -52,6 +52,8 @@ img{
     background: #fff;
     padding: 10px;
     z-index: 1000;
+    box-shadow: 0 0 15px 5px #0c436b;
+    border: 0 0 2px 0 solid #0c436b;
 }
 
 .nav{
@@ -104,8 +106,10 @@ img{
     text-transform: uppercase;
 }
 .nav_link:hover{
-    color: rgba(24, 120, 148, 0.5);
-    opacity: 2;
+    border: 2px solid #187894;
+    padding: 8px 15px;
+    border-radius: 50px/50px;
+    background: rgba(24, 120, 148, 0.1);
 }
 
 #menu-btn{
@@ -153,6 +157,7 @@ h1{
 
 p{
     font-size: 1.8rem;
+    line-height: 1.5;
 }
 h1 span{
     color: #187894;
@@ -207,7 +212,217 @@ h1 span{
     font-size: 4rem;
     text-align: center;
 }
+/*dev web*/
+.ban-code-dev{
+    background-image: url(./images/Banner-code.jpg);
+    background-repeat: no-repeat;
+}
+.ban-code-dev .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
 
+.ban-code-dev .content h2{
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-code-dev .content p{
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-code-dev .content p span{
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-code-dev .content a{
+    color: #fff;
+}
+
+.ban-code-dev .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+/*banniere donnée*/
+.ban-donne{
+    background-image: url(./images/data.jpg);
+    background-repeat: no-repeat;
+}
+.ban-donne .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-donne .content h2{
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-donne .content p{
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-donne .content p span{
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-donne .content a{
+    color: #fff;
+}
+
+.ban-donne .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+/* devops*/
+.ban-devo{
+    background-image: url(./images/devop.jpg);
+    background-repeat: no-repeat;
+}
+.ban-devo .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-devo .content h2{
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-devo .content p{
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-devo .content p span{
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-devo .content a{
+    color: #fff;
+}
+
+.ban-devo .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+/*securité audi*/
+.ban-secu{
+    background-image: url(./images/securite.jpg);
+    background-repeat: no-repeat;
+}
+.ban-secu .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-secu .content h2{
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-secu .content p{
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-secu .content p span{
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-secu .content a{
+    color: #fff;
+}
+
+.ban-secu .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/*reseau*/
+.ban-res{
+    background-image: url(./images/home.jpg);
+    background-repeat: no-repeat;
+}
+.ban-res .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-res .content h2{
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-res .content p{
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-res .content p span{
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-res .content a{
+    color: #fff;
+}
+
+.ban-res .about h2{
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
 /* Fin banniere section */
 
 /* About section */
@@ -439,7 +654,7 @@ main h3{
 .nosservice{
     width: 90%;
     padding: 40px 70px;
-    background: rgba(24, 120, 148, 0.5);
+    background: #fff;
     margin: 0 auto;
 }
 .nosservice .text_para h4{
@@ -480,6 +695,43 @@ main h3{
 }
 .nosservice .ri-check-double-line{
     color: #0c436b;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.raison{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.raison .img{
+    width: 60%;
+    border-radius: 1px;
+}
+.service-img{
+    display: flex;
+    align-items: center;
+    animation: slideDown 3s;
+}
+.qualite{
+    color: #444;
+    background: rgba(12, 67, 107, 0.1);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(0 0 0 /70%);
+    align-items: center;
+    width: 40%;
+    animation: slideDown1 3s;
+    margin-right: 20px;
+}
+.list{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    line-height: 1.8;
+}
+.nosservice .ri-check-double-line{
+    color: #187894;
     font-weight: bold;
     font-size: 2rem;
     margin-right: 5px;
@@ -797,7 +1049,9 @@ footer p{
         transition: .4s;
         box-shadow: -1px 0 4px rgba(22, 255, 5, 64%, 15%, .15);
     }
-
+    .nav_link{
+        color: #fff;
+    }
     .nav_list{
         display: block;
         text-align: center;
@@ -805,7 +1059,7 @@ footer p{
     .navitem{
         margin: 25px 0;
         padding: 8px 0; 
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .nav_toggle,
     .nav_close{
@@ -922,6 +1176,23 @@ footer p{
     }
     .nosservice .solut .check_list{
         display: block;
+    }
+    .raison{
+        display: block;
+    }
+    .raison .img{
+        width: 100%;
+        border-radius: 1px;
+        margin-top: 10px;
+    }
+    .service-img{
+        display: flex;
+        align-items: center;
+        animation: slideDown 3s;
+    }
+    .qualite{
+        color: #fff;
+        width: 100%;
     }
 
     .contact{
@@ -1115,7 +1386,7 @@ footer p{
 .show-menu{
     right: 0;
 }
-.active-link
+
 
 
 

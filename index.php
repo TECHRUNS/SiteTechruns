@@ -208,7 +208,7 @@
                 Email : " . $_POST["email"] . "
                 Message : " . $_POST["message"];
 
-                $reponse = mail("techruns228@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
+                $reponse = mail("benowola@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
                 if ($reponse){
                     $alert = '<div class="alert-success">
                             <span>Message envoyé! Merci de nous avoir contacter.</span>

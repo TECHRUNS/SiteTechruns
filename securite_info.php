@@ -47,46 +47,63 @@
 
     <!-- banniere section -->
     <!--<section class="banniere" id="#banniere">-->
-    <div id="acceuil">
-        <section class="banniere" id="#banniere">
-
-            <div class="content">
-                <h2>Teckruns</h2>
-                <p>une Equipe, <span>des Experts</span></p>
+        <div id="acceuil">
+            <section class="ban-secu" id="#banniere">
+    
+                <div class="content">
+                    <h2>Audi de Sécurité Informatique</h2>
+                </div>
+        
+            </section>
+        </div>
+    
+          <!-- section service -->
+          <main class="nosservice">
+            <div class="text_para">
+                <h3>Nos services de réseau informatique</h3>
+                <h4>Protéger son Système d’Information</h4>
+                <p>
+                    Adopter une démarche stratégique pour connaître le bon fonctionnement de son système 
+                    d’information, c'est garantit la disponibilité du système d’information, 
+                    l’ intégrité de ses données, la confidentialité des accès.
+                    Nos experts sont là pour évaluer le niveau de sécurité global de votre système 
+                    d'information et mettre en place une politique pour améliorer la sécurité de 
+                    votre système d'information.
+                </p>
             </div>
     
-        </section>
-    </div>
-
-    <!-- section service -->
-    <main class="nosservice">
-        <div class="text_para">
-            <h3>Nos services de réseau informatique</h3>
-            <h4>Rendre votre système plus performant</h4>
-            <p>
-                Un bon réseau informatique permet le bon fonctionnement 
-                des outils de travailet donc maximise la productivé. Notre équipe est là pour 
-                booster votre système informatique, vous construire un bon et solide
-                système informatique en fonction de votre bésoin.
-            </p>
-        </div>
-
-            <h3>solutions offertes</h3>
-        <div class="solut">
-            <div class="presta">
-                <ul class="check_list">
-                    <li><i class="ri-check-double-line"></i>Installation et configuration du système informatique</li>
-                    <li><i class="ri-check-double-line"></i>Création d'une architecture Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Maintenance Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Administration système</li>
-                    <li><i class="ri-check-double-line"></i>Cablage reseau</li>
-                    <li><i class="ri-check-double-line"></i>Installation Wifi</li>
-                </ul>
+                <h3>Nos missions</h3>
+                
+            <div class="solut">
+                <div class="presta">
+                    <ul class="check_list">
+                        <li><i class="ri-check-double-line"></i>Analyser le niveau de risque auquel est exposée votre entreprise</li>
+                        <li><i class="ri-check-double-line"></i>Identifier les vulnérabilités de votre système d’information</li>
+                        <li><i class="ri-check-double-line"></i>Corriger des actions pour renforcer la sécurité de votre système d'information</li>
+                        <li><i class="ri-check-double-line"></i>Maintenir le bon fonctionnement de votre système</li>
+                        <li><i class="ri-check-double-line"></i>Apporter différentes solutions de protection pour sécuriser vos informations et les données de l'entreprise</li>
+                        <li><i class="ri-check-double-line"></i>Garantir la pérennité des systèmes de sécurité</li>
+                        <li><i class="ri-check-double-line"></i>Actualiser les systèmes de sécurité en fonction des nouvelles menaces et des dernières technologies</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        
-    </main>
-    <span></span>
+    
+            <h3>pourquoi nous ?</h3>
+            
+            <div class="raison">
+                <div class="qualite">
+                    <p>Notre équipe est composée des professionnelles qui ont des connaissances approfondies des systèmes de sécurité informatique</p>
+                    <ul class="list">
+                        <li><i class="ri-check-double-line"></i>Limitation des accès au réseau</li>
+                        <li><i class="ri-check-double-line"></i>Pare-feu</li>
+                        <li><i class="ri-check-double-line"></i>Cryptologie</li>
+                    </ul>
+                </div>
+                <div class="img">
+                    <img src="./images/securite_info_1.jpg" alt="" class="service-img">
+                </div>
+            </div>
+        </main>
 
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>

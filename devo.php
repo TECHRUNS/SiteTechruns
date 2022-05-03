@@ -47,43 +47,59 @@
 
     <!-- banniere section -->
     <!--<section class="banniere" id="#banniere">-->
-    <div id="acceuil">
-        <section class="banniere" id="#banniere">
-
-            <div class="content">
-                <h2>Teckruns</h2>
-                <p>une Equipe, <span>des Experts</span></p>
+        <div id="acceuil">
+            <section class="ban-devo" id="#banniere">
+    
+                <div class="content">
+                    <h2>DevOps</h2>
+                </div>
+        
+            </section>
+        </div>
+    
+        <!-- section service -->
+        <main class="nosservice">
+            <div class="text_para">
+                <h3>Nos services de réseau informatique</h3>
+                <h4>Nouvelle Methodologie pour optimiser sa production</h4>
+                <p>
+                    Adopter la meilleure solutions pour accélérer les lancements de produits, 
+                    pour une meilleure réactivité aux besoins et un meilleur cadre de travail. 
+                    Notre equipe d'ingénieurs vont vous apporter les solutions idéales selon vos bésoins.
+                </p>
             </div>
     
-        </section>
-    </div>
+                <h3>Nos missions</h3>
 
-    <!-- section service -->
-    <main class="nosservice">
-        <div class="text_para">
-            <h3>Nos services en DevOps</h3>
-            <h4>Rendre votre système plus automate</h4>
-            <p>
-                Optimiser les performances de vos systèmes d'informations en les rendant plus automate afin d'accelerer votre productivité.
-                Notre équipe est là pour changer votre système en un système plus automate.                système informatique en fonction de votre bésoin.
-            </p>
-        </div>
-
-            <h3>solutions offertes</h3>
-
-        <div class="solut">
-            <div class="presta">
-                <ul class="check_list">
-                    <li><i class="ri-check-double-line"></i>automatisation des t</li>
-                    <li><i class="ri-check-double-line"></i>Jinkins, Ansible...</li>
-                    <li><i class="ri-check-double-line"></i>AWS ...</li>
-                    <li><i class="ri-check-double-line"></i>Conteneurisation docker, Kubernetes</li>
-                </ul>
+            <div class="solut">
+                <div class="presta">
+                    <ul class="check_list">
+                        <li><i class="ri-check-double-line"></i>déploiement des serveurs dans cloud: AWS, Azure</li>
+                        <li><i class="ri-check-double-line"></i>Developpement du site ou Application</li>
+                        <li><i class="ri-check-double-line"></i>Accompagner l’intégration et le déploiement l'Application</li>
+                        <li><i class="ri-check-double-line"></i>Test et mise en production</li>
+                        <li><i class="ri-check-double-line"></i>Assurer le bon fonctionnement et l’entretien de l’application ou du site web</li>
+                        <li><i class="ri-check-double-line"></i>Veiller à la bonne prise en main de l'Application par les utilisateurs</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        
-    </main>
-    <span></span>
+
+            <h3>pourquoi nous ?</h3>
+            
+            <div class="raison">
+                <div class="qualite">
+                    <p>Nous sommes une équipe des dévéloppeurs informatique et des administrateurs système comme :</p>
+                    <ul class="list">
+                        <li><i class="ri-check-double-line"></i>Developpeurs fullsatack</li>
+                        <li><i class="ri-check-double-line"></i>administrateurs système </li>
+                        <li><i class="ri-check-double-line"></i>administrateurs système </li>
+                    </ul>
+                </div>
+                <div class="img">
+                    <img src="./images/devop.jpg" alt="" class="service-img">
+                </div>
+            </div>
+        </main>
 
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>

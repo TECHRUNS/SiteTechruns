@@ -48,44 +48,57 @@
     <!-- banniere section -->
     <!--<section class="banniere" id="#banniere">-->
     <div id="acceuil">
-        <section class="banniere" id="#banniere">
+        <section class="ban-donne" id="#banniere">
 
             <div class="content">
-                <h2>Teckruns</h2>
-                <p>une Equipe, <span>des Experts</span></p>
+                <h2>Gestion des Bases de Données</h2>
             </div>
     
         </section>
     </div>
 
-    <!-- section service -->
-    <main class="nosservice">
+      <!-- section service -->
+      <main class="nosservice">
         <div class="text_para">
             <h3>Nos services de réseau informatique</h3>
-            <h4>Rendre votre système plus performant</h4>
+            <h4>Stocker et Gerer ses données</h4>
             <p>
-                Un bon réseau informatique permet le bon fonctionnement 
-                des outils de travailet donc maximise la productivé. Notre équipe est là pour 
-                booster votre système informatique, vous construire un bon et solide
-                système informatique en fonction de votre bésoin.
+               Disposer d'un outil pour centraliser et sécuriser vos données vace au ménace interne tout comme externe. 
+               Notre équipe est là pour vous aider gérer vos données.
             </p>
         </div>
 
-            <h3>solutions offertes</h3>
+            <h3>Nos missions</h3>
+            
         <div class="solut">
             <div class="presta">
                 <ul class="check_list">
-                    <li><i class="ri-check-double-line"></i>Installation et configuration du système informatique</li>
-                    <li><i class="ri-check-double-line"></i>Création d'une architecture Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Maintenance Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Administration système</li>
-                    <li><i class="ri-check-double-line"></i>Cablage reseau</li>
-                    <li><i class="ri-check-double-line"></i>Installation Wifi</li>
+                    <li><i class="ri-check-double-line"></i>Collecter des données</li>
+                    <li><i class="ri-check-double-line"></i>Créer et Administrer une base de donnée</li>
+                    <li><i class="ri-check-double-line"></i>Assurer à disposition des données</li>
+                    <li><i class="ri-check-double-line"></i>Veiller à la sécurité des bases de données</li>
+                    <li><i class="ri-check-double-line"></i>Mettre à jour la base de donnée</li>
                 </ul>
             </div>
         </div>
+
+        <h3>pourquoi nous ?</h3>
         
+        <div class="raison">
+            <div class="qualite">
+                <p>Nous sommes des professionnelles dans la gestion des bases de données comme :</p>
+                <ul class="list">
+                    <li><i class="ri-check-double-line"></i>Oracle DB</li>
+                    <li><i class="ri-check-double-line"></i>Mysql, SQL, Maria DB</li>
+                    <li><i class="ri-check-double-line"></i>PostgreSQL</li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="./images/data-center.jpg" alt="" class="service-img">
+            </div>
+        </div>
     </main>
+    
     <span></span>
 
     <div class="container" id="services">

@@ -48,11 +48,10 @@
     <!-- banniere section -->
     <!--<section class="banniere" id="#banniere">-->
     <div id="acceuil">
-        <section class="banniere" id="#banniere">
+        <section class="ban-res" id="#banniere">
 
             <div class="content">
-                <h2>Teckruns</h2>
-                <p>une Equipe, <span>des Experts</span></p>
+                <h2>Réseau Informatique</h2>
             </div>
     
         </section>
@@ -72,22 +71,39 @@
         </div>
 
             <h3>solutions offertes</h3>
+
         <div class="solut">
             <div class="presta">
                 <ul class="check_list">
                     <li><i class="ri-check-double-line"></i>Installation et configuration du système informatique</li>
-                    <li><i class="ri-check-double-line"></i>Création d'une architecture Réseau</li>
+                    <li><i class="ri-check-double-line"></i>Architecture Réseau</li>
                     <li><i class="ri-check-double-line"></i>Maintenance Réseau</li>
                     <li><i class="ri-check-double-line"></i>Administration système</li>
-                    <li><i class="ri-check-double-line"></i>Cablage reseau</li>
+                    <li><i class="ri-check-double-line"></i>Cablage Réseau</li>
                     <li><i class="ri-check-double-line"></i>Installation Wifi</li>
                     <li><i class="ri-check-double-line"></i>Virtualisation</li>
                 </ul>
             </div>
         </div>
+
+        <h3>pourquoi nous ?</h3>
+        
+        <div class="raison">
+            <div class="qualite">
+                <p>Nous sommes une équipe des techniciens et Administrateurs Réseau avec plusieurs années d'experience en :</p>
+                <ul class="list">
+                    <li><i class="ri-check-double-line"></i>Cablage</li>
+                    <li><i class="ri-check-double-line"></i>Architecture Réseau</li>
+                    <li><i class="ri-check-double-line"></i>CCNA</li>
+                    <li><i class="ri-check-double-line"></i>Configuration des équippements Réseau</li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="./images/cable.jpg" alt="" class="service-img">
+            </div>
+        </div>
         
     </main>
-    <span></span>
 
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>

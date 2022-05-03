@@ -48,11 +48,10 @@
     <!-- banniere section -->
     <!--<section class="banniere" id="#banniere">-->
     <div id="acceuil">
-        <section class="banniere" id="#banniere">
+        <section class="ban-code-dev" id="#banniere">
 
             <div class="content">
-                <h2>Teckruns</h2>
-                <p>une Equipe, <span>des Experts</span></p>
+                <h2>Dévéloppement Web</h2>
             </div>
     
         </section>
@@ -62,31 +61,45 @@
     <main class="nosservice">
         <div class="text_para">
             <h3>Nos services de réseau informatique</h3>
-            <h4>Rendre votre système plus performant</h4>
+            <h4>Faire connaître son entreprise ou ses produits au monde</h4>
             <p>
-                Un bon réseau informatique permet le bon fonctionnement 
-                des outils de travailet donc maximise la productivé. Notre équipe est là pour 
-                booster votre système informatique, vous construire un bon et solide
-                système informatique en fonction de votre bésoin.
+                Avoir son propre site web permet de valoriser sa production, de présenter ses activités, 
+                , ses services et aussi augmenter ses clients. Notre équipe est là pour 
+                vous aider à avoir votre propre site web ou appliction web selon vos bésoins.
             </p>
         </div>
 
-            <h3>solutions offertes</h3>
+            <h3>Nos missions</h3>
         <div class="solut">
             <div class="presta">
                 <ul class="check_list">
-                    <li><i class="ri-check-double-line"></i>Installation et configuration du système informatique</li>
-                    <li><i class="ri-check-double-line"></i>Création d'une architecture Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Maintenance Réseau</li>
-                    <li><i class="ri-check-double-line"></i>Administration système</li>
-                    <li><i class="ri-check-double-line"></i>Cablage reseau</li>
-                    <li><i class="ri-check-double-line"></i>Installation Wifi</li>
+                    <li><i class="ri-check-double-line"></i>Analyse des béoins</li>
+                    <li><i class="ri-check-double-line"></i>Conception du site ou Application</li>
+                    <li><i class="ri-check-double-line"></i>Developpement du site ou Application</li>
+                    <li><i class="ri-check-double-line"></i>Test et mise en production</li>
+                    <li><i class="ri-check-double-line"></i>Maintenance et support technique du site</li>
+                    <li><i class="ri-check-double-line"></i>Veille</li>
                 </ul>
             </div>
         </div>
+       
+        <h3>pourquoi nous ?</h3>
         
+        <div class="raison">
+            <div class="qualite">
+                <p>Nous sommes une équipe des dévéloppeurs polyvalents et experimentés comme :</p>
+                <ul class="list">
+                    <li><i class="ri-check-double-line"></i>developpeurs fontend</li>
+                    <li><i class="ri-check-double-line"></i>developpeurs backend</li>
+                    <li><i class="ri-check-double-line"></i>Developpeurs fullsatack</li>
+                    <li><i class="ri-check-double-line"></i>developpeurs developpeurs d'application mobile</li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="./images/pc-code.jpg" alt="" class="service-img">
+            </div>
+        </div>
     </main>
-    <span></span>
 
     <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>
