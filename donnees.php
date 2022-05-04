@@ -63,7 +63,7 @@
             <h3>Nos services de réseau informatique</h3>
             <h4>Stocker et Gerer ses données</h4>
             <p>
-               Disposer d'un outil pour centraliser et sécuriser vos données vace au ménace interne tout comme externe. 
+               Disposer d'un outil pour centraliser et sécuriser vos données face au ménace interne tout comme externe. 
                Notre équipe est là pour vous aider gérer vos données.
             </p>
         </div>
@@ -165,7 +165,7 @@
                     <div class="text">
                         <h2>Telephone</h2>
                         <p>
-                            +228 90 47 88 <br>
+                            +228 90 47 88 14 <br>
                             +33 7 55 89 13 21
                         </p>
                     </div>

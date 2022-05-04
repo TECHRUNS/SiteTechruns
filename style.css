@@ -560,7 +560,7 @@ h1 span{
     margin-top: 10px;
 }
 main h3{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -639,7 +639,9 @@ main h3{
     box-shadow: var(--box-shadow);
     animation: slideDown1 3s;
 }
-
+.service p{
+    color: #444;
+}
 .service h2{
     font-weight: 600;
     margin-bottom: 10px;
@@ -658,7 +660,8 @@ main h3{
     margin: 0 auto;
 }
 .nosservice .text_para h4{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #444;
     text-align: center;
     padding-top: 40px;
 }
@@ -1092,6 +1095,21 @@ footer p{
     .banniere .content a{
         font-size: 2.8rem;
     }
+    .ban-res .content h2{
+        font-size: 4rem;
+    }
+    .ban-devo .content h2{
+        font-size: 4rem;
+    }
+    .ban-donne .content h2{
+        font-size: 4rem;
+    }
+    .ban-code-dev .content h2{
+        font-size: 4rem;
+    }
+    .ban-secu .content h2{
+        font-size: 4rem;
+    }
 
     .container h1{
         text-align: center;
@@ -1170,12 +1188,23 @@ footer p{
     .service p{
         font-size: 1.8rem;
     }
-
+    .nosservice{
+        width: 100%;
+        padding: 40px 40px;
+        background: #fff;
+        margin: 0 auto;
+    }
     .nosservice .solut{
         display: block;
     }
     .nosservice .solut .check_list{
         display: block;
+        font-size: 1.8rem;
+        line-height: 1.8;
+    }
+    .nosservice .text_para h4{
+        font-size: 2.3rem;
+        color: #444;
     }
     .raison{
         display: block;
@@ -1186,13 +1215,16 @@ footer p{
         margin-top: 10px;
     }
     .service-img{
-        display: flex;
+        display: block;
         align-items: center;
         animation: slideDown 3s;
     }
     .qualite{
-        color: #fff;
+        color: #444;
         width: 100%;
+    }
+    .qualite .list, p{
+       font-size: 1.8rem;
     }
 
     .contact{
@@ -1208,6 +1240,13 @@ footer p{
     }
     .contact .container1 .contactform .text{
         font-size: 3rem;
+    }
+    .contact .container1 .contactinfo .box .text h2{
+        padding: 5px 0;
+    }
+    .contact .container1 .contactinfo .box .text p{
+        padding: 5px 0;
+        font-size: 2.2rem;
     }
 
     main{
@@ -1227,13 +1266,15 @@ footer p{
         font-size: 4.5rem;
         font-weight: 500;
     }
-
+    p{
+        line-height: 1.8;
+    }
     h2{
         font-size: 3rem;
     }
 
     h3{
-        font-size: 2.8rem;
+        font-size: 3.5rem;
     }
     .btn{
         font-size: 3rem;
@@ -1275,18 +1316,36 @@ footer p{
         font-size: 3rem;
     }
     .service p{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
-    
+    .ban-res .content h2{
+        font-size: 4rem;
+    }
+    .ban-devo .content h2{
+        font-size: 4rem;
+    }
+    .ban-donne .content h2{
+        font-size: 4rem;
+    }
+    .ban-code-dev .content h2{
+        font-size: 4rem;
+    }
+    .ban-secu .content h2{
+        font-size: 4rem;
+    }
+    .nosservice .solut .check_list{
+        display: block;
+        font-size: 2rem;
+        line-height: 1.8;
+    }
+
     .contact{
         padding: 10px;
-     }
- 
-     .contact .container1{
+    }
+    .contact .container1{
          display: block;
          width: 100%;
-     }
-    
+    }
     .contact .container1 .contactform{
         width: 100%;
         margin: 0;
@@ -1294,6 +1353,29 @@ footer p{
     .contact .container1 .contactform .text{
         font-size: 3rem;
     }
+    .contact .container1 .contactinfo .box .text h2{
+        padding: 5px 0;
+    }
+    .contact .container1 .contactinfo .box .text p{
+        padding: 5px 0;
+        font-size: 2.4rem;
+    }
+
+    .qualite{
+        color: #444;
+        width: 100%;
+    } 
+    .qualite .list, p{
+        font-size: 2rem;
+    }
+    .nosservice .solut .check_list {
+        line-height: 1.8;
+    }
+    .nosservice .text_para h4{
+        font-size: 2.4rem;
+        color: #444;
+    }
+
 }
 
 @media (max-width:450px){
@@ -1308,8 +1390,8 @@ footer p{
     }
 
     p{
-        font-size: 2.1rem;
-        line-height: 3rem;
+        font-size: 2.2rem;
+        line-height: 1.8;
     }
     .nosservice{
         width: 100%;
@@ -1317,13 +1399,45 @@ footer p{
     }
     .nosservice .text_para p{
         padding: 30px 0;
-        text-align: justify;
-        line-height: 3rem;
+        line-height: 1.8;
     }
     .nosservice .solut .check_list li{
-        font-size: 1.8rem;
-        line-height: 2.8rem;
+        font-size: 2.2rem;
+        line-height: 1.8;
     }
+    .ban-res .content h2{
+        font-size: 3rem;
+    }
+    .ban-devo .content h2{
+        font-size: 3rem;
+    }
+    .ban-donne .content h2{
+        font-size: 3rem;
+    }
+    .ban-code-dev .content h2{
+        font-size: 3rem;
+    }
+    .ban-secu .content h2{
+        font-size: 3rem;
+    }
+    .qualite{
+        color: #444;
+        width: 100%;
+    }
+    .qualite .list{
+        font-size: 2.2rem;
+    }
+    .qualite p{
+        font-size: 2.2rem;
+    }
+    .nosservice .solut .check_list{
+        line-height: 1.8;
+    }
+    .nosservice .text_para h4{
+        font-size: 2.5rem;
+        color: #444;
+    }
+
     .btn{
         font-size: 2.5rem;
     }
@@ -1355,9 +1469,12 @@ footer p{
     .contact .container1 .contactinfo .box .text h2{
         font-size: 3rem;
         margin: 0 auto;
+        padding: 5px 0;
     }
     .contact .container1 .contactinfo .box .text p{
         margin: 0 auto;
+        padding: 5px 0;
+        font-size: 2.3rem;
     }
     .contact .container1 .contactform{
         width: 100%;

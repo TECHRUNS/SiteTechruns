@@ -63,8 +63,7 @@
             <h3>Nos services de réseau informatique</h3>
             <h4>Faire connaître son entreprise ou ses produits au monde</h4>
             <p>
-                Avoir son propre site web permet de valoriser sa production, de présenter ses activités, 
-                , ses services et aussi augmenter ses clients. Notre équipe est là pour 
+                Avoir son propre site web permet de valoriser sa production, de présenter ses activités, ses services et aussi augmenter ses clients. Notre équipe est là pour 
                 vous aider à avoir votre propre site web ou appliction web selon vos bésoins.
             </p>
         </div>
@@ -165,7 +164,7 @@
                     <div class="text">
                         <h2>Telephone</h2>
                         <p>
-                            +228 90 47 88 <br>
+                            +228 90 47 88 14 <br>
                             +33 7 55 89 13 21
                         </p>
                     </div>
