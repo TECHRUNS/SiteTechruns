@@ -68,8 +68,8 @@
             <h4>A Propos du fondateur</h4>
             <p class="description">
                 Ingénieur DevOps, Yabinami Damename KOLANI est un jeune togolais dynamique 
-                qui a fait ses épreuve dans plusieurs PME au Togo. En 2017 il est partir continuer ses études 
-                en france à Amiens. Après son installation en france, il a travaillé dans plusieurs entreprises
+                qui a fait ses épreuve dans plusieurs PME au Togo. En 2017 il a continuer ses études 
+                en france à Amiens. Après son installation en france, il a travaillé dans plusieurs entreprises.
             </p>
             <ul class="icon-soc">
                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
@@ -87,9 +87,9 @@
             </div>
             <h4>A propos du Co-fondateur</h4>
             <p class="description">
-                Ingénieur en système réseau et developpeur full stack, Koffi Benoît DZAHINI est le co-fondateur de Teckruns. 
-                Il a entre autres travaillé dans des pétites et grandes entreprisesdu Togo 
-                en tant que technicien informatique, dont CAFE informatique et télécommunication, ONG Carrefour Tier Monde.  
+                Ingénieur en système réseau et developpeur full stack, Koffi Benoît DZAHINI est 
+                le co-fondateur de Teckruns. Il a entre autres travaillé dans des pétites et grandes entreprises 
+                du Togo en tant que technicien informatique, dont CAFE informatique et télécommunication, ONG Carrefour Tier Monde.  
             </p>
             <ul class="icon-soc">
                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>

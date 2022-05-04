@@ -64,7 +64,7 @@
             <h4>Rendre votre système plus performant</h4>
             <p>
                 Un bon réseau informatique permet le bon fonctionnement 
-                des outils de travaille et maximise la productivé. Notre équipe est là pour 
+                des outils de travail et maximise la productivé. Notre équipe est là pour 
                 booster votre système informatique, vous construire un bon et solide
                 système informatique en fonction de votre bésoin.
             </p>
