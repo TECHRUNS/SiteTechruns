@@ -51,7 +51,7 @@
         <section class="ban-code-dev" id="#banniere">
 
             <div class="content">
-                <h2>Dévéloppement Web</h2>
+                <h2>Dévéloppeur Web</h2>
             </div>
     
         </section>
