@@ -51,7 +51,7 @@
         <section class="ban-donne" id="#banniere">
 
             <div class="content">
-                <h2>Gestion des Bases de Données</h2>
+                <h2>Base de Donnée</h2>
             </div>
     
         </section>
@@ -60,7 +60,7 @@
       <!-- section service -->
       <main class="nosservice">
         <div class="text_para">
-            <h3>Nos services de réseau informatique</h3>
+            <h3>Nos services de gestion de base de donnée</h3>
             <h4>Stocker et Gerer ses données</h4>
             <p>
                Disposer d'un outil pour centraliser et sécuriser vos données face au ménace interne tout comme externe. 

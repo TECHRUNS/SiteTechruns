@@ -51,7 +51,7 @@
             <section class="ban-secu" id="#banniere">
     
                 <div class="content">
-                    <h2>Audi de Sécurité Informatique</h2>
+                    <h2>Audi Informatique</h2>
                 </div>
         
             </section>
@@ -60,7 +60,7 @@
           <!-- section service -->
           <main class="nosservice">
             <div class="text_para">
-                <h3>Nos services de réseau informatique</h3>
+                <h3>Nos services d'Audi informatique</h3>
                 <h4>Protéger son Système d’Information</h4>
                 <p>
                     Adopter une démarche stratégique pour connaître le bon fonctionnement de son système 

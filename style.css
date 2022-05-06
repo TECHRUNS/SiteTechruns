@@ -157,7 +157,7 @@ h1{
 
 p{
     font-size: 1.8rem;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 h1 span{
     color: #187894;
@@ -513,7 +513,7 @@ h1 span{
     padding: 40px;
 }
 .photo{
-    width: 350px;
+    width: 400px;
     border-radius: 10px;
 }
 .photo_profil{
@@ -532,10 +532,10 @@ h1 span{
     animation: slideDown1 3s;
 }
 .infoperso strong{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.8;
-    color: #444;
+    color: #222;
 }
 .infoperso .info span{
     text-transform: uppercase;
@@ -544,27 +544,27 @@ h1 span{
     font-size: 2rem;
 }
 .infoperso .info .titre{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: none;
     color: #ddd;
 }
 .infoperso h4{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 25px 0 5px 0;
 }
 .infoperso .description{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #ddd;
     line-height: 1.8;
     text-align: justify;
     margin-top: 10px;
 }
 main h3{
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    color: #0c436b;
+    color: #fff;
     margin-top: 10px;
     padding-top: 30px;
 }
@@ -1000,14 +1000,8 @@ footer p{
         display: block;
     }
     .infoperso{
-        color: #eee;
         background: rgba(24, 120, 148, 0.5);
-        padding: 70px;
-        border-radius: 5px;
-        box-shadow: 0 5px 25px rgb(2 2 2 /5%);
-        align-items: center;
         width: 65%;
-        animation: slideDown1 3s;
     }
     .container h1{
         text-align: center;
@@ -1030,6 +1024,12 @@ footer p{
     }
     .contact .container1 .contactinfo .contactform{
         width: 100%;
+    }
+
+    .infoperso{
+        background: rgba(24, 120, 148, 0.5);
+        box-shadow: 0 5px 25px rgb(2 2 2 /5%);
+        width: 65%;
     }
 }
 
@@ -1060,9 +1060,9 @@ footer p{
         text-align: center;
     }
     .navitem{
-        margin: 25px 0;
+        margin: 35px 0;
         padding: 8px 0; 
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .nav_toggle,
     .nav_close{
@@ -1179,9 +1179,11 @@ footer p{
     .infoperso{
         align-items: center;
         width: 100%;
-        background: #187894;
+        background: rgba(24, 120, 148, 0.5);
+        padding: 30px;
+        margin: 5px 0;
     }
-
+   
     .service h2{
         font-size: 2.2rem;
     }

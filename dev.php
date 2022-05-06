@@ -60,7 +60,7 @@
     <!-- section service -->
     <main class="nosservice">
         <div class="text_para">
-            <h3>Nos services de réseau informatique</h3>
+            <h3>Nos services du Developpement Web</h3>
             <h4>Faire connaître son entreprise ou ses produits au monde</h4>
             <p>
                 Avoir son propre site web permet de valoriser sa production, de présenter ses activités, ses services et aussi augmenter ses clients. Notre équipe est là pour 
