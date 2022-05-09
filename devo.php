@@ -60,7 +60,7 @@
         <!-- section service -->
         <main class="nosservice">
             <div class="text_para">
-                <h3>Nos services de réseau informatique</h3>
+                <h3>Nos services de DevOps</h3>
                 <h4>Nouvelle Methodologie pour optimiser sa production</h4>
                 <p>
                     Adopter la meilleure solutions pour accélérer les lancements de produits, 
@@ -221,7 +221,7 @@
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
             </nav>
-            <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
+            <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
 

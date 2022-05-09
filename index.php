@@ -201,21 +201,18 @@
             <!-- alert du message envoyer -->
             
             <?php 
-            if (isset($_POST["message"])){
-                $message = "Ce message vous a été envoyer depuis la page Contact du site teckruns.com
-                Nom de l'Epediteur : " . $_POST["nom"] . "
-                Nom d'Entreprise : " . $_POST["nom_entreprise"] . "
-                Email : " . $_POST["email"] . "
-                Message : " . $_POST["message"];
+                if (isset($_POST["message"])){
+                    $message = "Ce message vous a été envoyer depuis la page Contact du site teckruns.com
+                    Nom de l'Epediteur : " . $_POST["nom"] . "
+                    Nom d'Entreprise : " . $_POST["nom_entreprise"] . "
+                    Email : " . $_POST["email"] . "
+                    Message : " . $_POST["message"];
 
-                $reponse = mail("benowola@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
-                if ($reponse){
-                    $alert = '<div class="alert-success">
-                            <span>Message envoyé! Merci de nous avoir contacter.</span>
-                            </div>';
-                    echo $alert;
+                    $reponse = mail("benowola@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
+                    if ($reponse){
+                        echo "<span>Message envoyé! Merci de nous avoir contacter.</span>";
+                    }
                 }
-            }
             ?>
 
     </section>
@@ -230,7 +227,7 @@
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
             </nav>
-            <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
+            <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
 

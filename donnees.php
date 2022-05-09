@@ -221,7 +221,7 @@
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
             </nav>
-            <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
+            <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
 

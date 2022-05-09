@@ -23,16 +23,16 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="navitem">
-                        <a href="#acceuil" class="nav_link active-link">Acceuil</a>
+                        <a href="./index.php" class="nav_link active-link">Acceuil</a>
                     </li>
                     <li class="navitem">
                         <a href="./about.php" class="nav_link">A Propos</a>
                     </li>
                     <li class="navitem">
-                        <a href="#services" class="nav_link">Services</a>
+                        <a href="./index.php" class="nav_link">Services</a>
                     </li>
                     <li class="navitem">
-                        <a href="#contact" class="nav_link">Contact</a>
+                        <a href="./index.php" class="nav_link">Contact</a>
                     </li>
                 </ul>
 
@@ -86,12 +86,13 @@
         
         <div class="raison">
             <div class="qualite">
-                <p>Nous sommes une équipe des dévéloppeurs polyvalents et experimentés comme :</p>
+                <p>Nous sommes une équipe des concepteurs et dévéloppeurs polyvalents et experimentés 
+                    qui conçoivent et élabore des sites web pour les particuliers et des PME. Nous avons : </p>
                 <ul class="list">
                     <li><i class="ri-check-double-line"></i>developpeurs fontend</li>
                     <li><i class="ri-check-double-line"></i>developpeurs backend</li>
                     <li><i class="ri-check-double-line"></i>Developpeurs fullsatack</li>
-                    <li><i class="ri-check-double-line"></i>developpeurs developpeurs d'application mobile</li>
+                    <li><i class="ri-check-double-line"></i>concepteurs et developpeurs d'application mobile</li>
                 </ul>
             </div>
             <div class="img">
@@ -220,7 +221,7 @@
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
             </nav>
-            <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
+            <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
 

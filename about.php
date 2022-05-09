@@ -48,59 +48,44 @@
     <section class="banniere" id="#banniere">
 
         <div class="content about">
-            <h2>A Propos de nous</h2>
+            <h2>Qui sommes nous</h2>
         </div>
 
     </section>
     <!-- End Banner section -->
 
     <!--About section-->
-<main>
-    <h3>La direction de Teckruns</h3>
-    <div class="direction">
-        <div class="photo_profil"><img src="./images/donne.jpeg" class="photo" alt=""></div>
-        
-        <div class="infoperso">
-            <div class="info">
-                <strong>Yabinami Damename</strong> <span>KOLANI</span><br>
-                <span class="titre">Fondateur de Teckruns</span>
-            </div>
-            <h4>A Propos du fondateur</h4>
-            <p class="description">
-                Ingénieur DevOps, Yabinami Damename KOLANI est un jeune togolais dynamique 
-                qui a fait ses épreuve dans plusieurs PME au Togo. En 2017 il a continuer ses études 
-                en france à Amiens. Après son installation en france, il a travaillé dans plusieurs entreprises.
-            </p>
-            <ul class="icon-soc">
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="direction">
-        <div class="infoperso">
-            <div class="info">
-                <strong>Koffi Benoît</strong> <span>DZAHINI</span><br>
-                <span class="titre">Co-Fondateur de Teckruns</span>
-            </div>
-            <h4>A propos du Co-fondateur</h4>
-            <p class="description">
-                Ingénieur en système réseau et developpeur full stack, Koffi Benoît DZAHINI est 
-                le co-fondateur de Teckruns. Il a entre autres travaillé dans des pétites et grandes entreprises 
-                du Togo en tant que technicien informatique, dont CAFE informatique et télécommunication, ONG Carrefour Tier Monde.  
-            </p>
-            <ul class="icon-soc">
-                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                <li><a href="#"></i><ion-icon name="logo-twitter"></ion-icon></a></li>
-            </ul>
-        </div>
+<main class="certification">
+    <h3>teckruns : une équipe des experts</h3>
+    <p>Nous sommes une équipe composée des concepteurs et developpeurs de site web, 
+        des ingénieurs DevOps, des administrateurs et techniciens Réseaux et des 
+        administrateurs des bases de Données. La variété de nos compétences 
+        nous permet de répondre à vos bésoins les plus diversifiés.
+        Notre équipe est là pour vous, alors confier nous vos systèmes informatique. 
+    </p>
+        <h3>La certification</h3>
+    <p>
+        Notre expertisme et notre professionnalisme vient du faite que chacune de nos équipes
+        a déjà de l'expérience dans leurs domaine et est accréditée avec les certifications les plus reconnues.
+    </p>
 
-        <div class="photo_profil"><img src="./images/wolako.jpeg" class="photo" alt=""></div>
-    </div>
+        <div class="row_cert">
+            <div class="cert">
+                <h2>Certification Cisco CCNA</h2>
+            </div>
+
+            <div class="cert">
+                <h2>Certification Kubernetes</h2>
+            </div>
+                
+            <div class="cert">
+                <h2>Certification AWS</h2>
+            </div>
+
+            <div class="cert">
+                <h2>Certification Cisco terraform</h2>
+            </div>
+        </div>
 </main>
     
 
@@ -113,7 +98,7 @@
              <a href="./index.php" class="nav_link">Services</a>
              <a href="./index.php" class="nav_link">Contact</a>
          </nav>
-            <p>&copy; 2022 Techrun. Tout Droits Reservés</p>
+            <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
     <!--End footer section-->
 
