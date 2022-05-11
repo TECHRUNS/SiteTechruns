@@ -66,8 +66,52 @@ function scrolActive() {
     }
   });
 }
-/*window.addEventListener("scroll", scrollActive);
+/* partie slide */
+const monslide = document.querySelectorAll(".messlides");
+point = document.querySelectorAll(".point");
 
-if (window.history.replaceState) {
-  window.history.replaceState(null, null, window.location.href);
-}*/
+let compteur = 1;
+slidefun(compteur);
+let timer = setInterval(autoslide, 5000);
+function autoslide() {
+  compteur += 1;
+  slidefun(compteur);
+}
+function plusSlides(n) {
+  compteur += n;
+  slidefun(compteur);
+  resetTimer();
+}
+function plusSlides(n) {
+  compteur -= n;
+  slidefun(compteur);
+  resetTimer();
+}
+function currentSlide(n) {
+  compteur += n;
+  slidefun(compteur);
+  resetTimer();
+}
+function resetTimer() {
+  clearInterval(timer);
+  timer = setInterval(autoslide, 5000);
+}
+function slidefun(n) {
+  let i;
+  for (i = 0; i < monslide.length; i++) {
+    monslide[i].style.display = "none";
+  }
+  for (i = 0; i < point.length; i++) {
+    point[i].classList.remove("active");
+  }
+  if (n > monslide.length) {
+    compteur = 1;
+  }
+  if (n < 1) {
+    compteur = monslide.length;
+  }
+  monslide[compteur - 1].style.display = "block";
+  point[compteur - 1].classList.add("active");
+}
+
+/*fin partie slide*/

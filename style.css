@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Roboto:wght@500&display=swap');
 
-:root{
-    --blue:#0c436b;
-    --black:#444;
-    --bg:#ddd;
-    --light-color:#777;
-    --box-shadow:.5rem .5rem 0 rgba(12, 67, 107, .2);
-    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border:.2rem solid var(--blue);
+:root {
+    --blue: #0c436b;
+    --black: #444;
+    --bg: #ddd;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(12, 67, 107, .2);
+    --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border: .2rem solid var(--blue);
 }
 
-*{
+* {
     font-family: 'Montserrat', 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -21,30 +21,31 @@
     transition: all .2s ease-out;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background: #eee;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.header{
+.header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -56,42 +57,47 @@ img{
     border: 0 0 2px 0 solid #0c436b;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 90px;
 }
 
-.header .logo img{
+.header .logo img {
     height: 5.8rem;
 }
 
-.nav_toggle{
+.nav_toggle {
     font-size: 3rem;
     cursor: pointer;
 }
-.nav_menu{
+
+.nav_menu {
     position: relative;
 }
-.nav_list{
+
+.nav_list {
     flex-direction: row;
     column-gap: 4rem;
     font-size: 1.3rem;
 }
-.nav_list{
+
+.nav_list {
     display: flex;
     justify-content: space-between;
 }
+
 .nav_toggle,
-.nav_close{
+.nav_close {
     display: none;
 }
 
-.active-link{
+.active-link {
     position: relative;
 }
-.active-link::before{
+
+.active-link::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -100,33 +106,34 @@ img{
     left: 0;
 }
 
-.nav_link{
+.nav_link {
     color: #0c436b;
     font-weight: bold;
     text-transform: uppercase;
 }
-.nav_link:hover{
+
+.nav_link:hover {
     border: 2px solid #187894;
     padding: 8px 15px;
     border-radius: 50px/50px;
     background: rgba(24, 120, 148, 0.1);
 }
 
-#menu-btn{
+#menu-btn {
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:var(--blue);
+    color: var(--blue);
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
 }
 
-section{
+section {
     padding: 2rem 9%;
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 1rem;
     padding: .5rem;
@@ -138,51 +145,52 @@ section{
     font-size: 1.7rem;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--blue);
     color: #fff;
 }
 
-.btn:hover span{
+.btn:hover span {
     color: var(--blue);
     background: #fff;
     margin-left: 1rem;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;
 }
 
-p{
+p {
     font-size: 1.8rem;
     line-height: 1.8;
 }
-h1 span{
+
+h1 span {
     color: #187894;
     text-transform: uppercase;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100%;
     padding: 0 8%;
 }
 
-.banniere{
+.banniere {
     background-image: url(images/data.jpg);
     background-repeat: no-repeat;
 }
 
-.banniere .content{
+.banniere .content {
     text-align: center;
     padding: 150px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.banniere .content h2{
+.banniere .content h2 {
     font-size: 7rem;
     color: var(--blue);
     line-height: 1.8;
@@ -190,7 +198,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.banniere .content p{
+.banniere .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -198,33 +206,35 @@ h1 span{
     font-weight: 500;
 }
 
-.banniere .content p span{
+.banniere .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.banniere .content a{
+.banniere .content a {
     color: #fff;
 }
 
-.banniere .about h2{
+.banniere .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
+
 /*dev web*/
-.ban-code-dev{
+.ban-code-dev {
     background-image: url(./images/Banner-code.jpg);
     background-repeat: no-repeat;
 }
-.ban-code-dev .content{
+
+.ban-code-dev .content {
     text-align: center;
     padding: 100px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.ban-code-dev .content h2{
+.ban-code-dev .content h2 {
     font-size: 7rem;
     color: #fff;
     line-height: 1.8;
@@ -232,7 +242,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.ban-code-dev .content p{
+.ban-code-dev .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -240,33 +250,35 @@ h1 span{
     font-weight: 500;
 }
 
-.ban-code-dev .content p span{
+.ban-code-dev .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.ban-code-dev .content a{
+.ban-code-dev .content a {
     color: #fff;
 }
 
-.ban-code-dev .about h2{
+.ban-code-dev .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
+
 /*banniere donnée*/
-.ban-donne{
+.ban-donne {
     background-image: url(./images/data.jpg);
     background-repeat: no-repeat;
 }
-.ban-donne .content{
+
+.ban-donne .content {
     text-align: center;
     padding: 100px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.ban-donne .content h2{
+.ban-donne .content h2 {
     font-size: 7rem;
     color: #fff;
     line-height: 1.8;
@@ -274,7 +286,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.ban-donne .content p{
+.ban-donne .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -282,33 +294,35 @@ h1 span{
     font-weight: 500;
 }
 
-.ban-donne .content p span{
+.ban-donne .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.ban-donne .content a{
+.ban-donne .content a {
     color: #fff;
 }
 
-.ban-donne .about h2{
+.ban-donne .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
+
 /* devops*/
-.ban-devo{
+.ban-devo {
     background-image: url(./images/devop.jpg);
     background-repeat: no-repeat;
 }
-.ban-devo .content{
+
+.ban-devo .content {
     text-align: center;
     padding: 100px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.ban-devo .content h2{
+.ban-devo .content h2 {
     font-size: 7rem;
     color: #fff;
     line-height: 1.8;
@@ -316,7 +330,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.ban-devo .content p{
+.ban-devo .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -324,33 +338,35 @@ h1 span{
     font-weight: 500;
 }
 
-.ban-devo .content p span{
+.ban-devo .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.ban-devo .content a{
+.ban-devo .content a {
     color: #fff;
 }
 
-.ban-devo .about h2{
+.ban-devo .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
+
 /*securité audi*/
-.ban-secu{
+.ban-secu {
     background-image: url(./images/securite.jpg);
     background-repeat: no-repeat;
 }
-.ban-secu .content{
+
+.ban-secu .content {
     text-align: center;
     padding: 100px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.ban-secu .content h2{
+.ban-secu .content h2 {
     font-size: 7rem;
     color: #fff;
     line-height: 1.8;
@@ -358,7 +374,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.ban-secu .content p{
+.ban-secu .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -366,34 +382,35 @@ h1 span{
     font-weight: 500;
 }
 
-.ban-secu .content p span{
+.ban-secu .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.ban-secu .content a{
+.ban-secu .content a {
     color: #fff;
 }
 
-.ban-secu .about h2{
+.ban-secu .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
 
 /*reseau*/
-.ban-res{
+.ban-res {
     background-image: url(./images/home.jpg);
     background-repeat: no-repeat;
 }
-.ban-res .content{
+
+.ban-res .content {
     text-align: center;
     padding: 100px;
     box-shadow: 0 0 5px 0 #fff;
     background: rgba(24, 120, 148, 0.1);
 }
 
-.ban-res .content h2{
+.ban-res .content h2 {
     font-size: 7rem;
     color: #fff;
     line-height: 1.8;
@@ -401,7 +418,7 @@ h1 span{
     text-transform: uppercase;
 }
 
-.ban-res .content p{
+.ban-res .content p {
     font-size: 3rem;
     color: #eee;
     line-height: 1.8;
@@ -409,37 +426,38 @@ h1 span{
     font-weight: 500;
 }
 
-.ban-res .content p span{
+.ban-res .content p span {
     color: #0c436b;
     font-weight: 600;
 }
 
-.ban-res .content a{
+.ban-res .content a {
     color: #fff;
 }
 
-.ban-res .about h2{
+.ban-res .about h2 {
     color: #eee;
     font-size: 4rem;
     text-align: center;
 }
+
 /* Fin banniere section */
 
 /* About section */
-.about{
+.about {
     width: 100%;
     min-height: 80vh;
     padding: 0;
 }
 
-.about .container{
+.about .container {
     width: 100%;
     display: block;
     margin: auto;
     padding-top: 100px;
 }
 
-.about .content-sec{
+.about .content-sec {
     float: left;
     width: 50%;
     padding-right: 50px;
@@ -447,7 +465,7 @@ h1 span{
     z-index: -1;
 }
 
-.about .content-sec .icon-soc{
+.about .content-sec .icon-soc {
     position: relative;
     display: flex;
     justify-content: center;
@@ -456,11 +474,11 @@ h1 span{
     flex-wrap: wrap;
 }
 
-.about .content-sec .icon-soc li{
+.about .content-sec .icon-soc li {
     list-style: none;
 }
 
-.about .content-sec .icon-soc li a{
+.about .content-sec .icon-soc li a {
     font-size: 3.5rem;
     color: #187894;
     margin: 0 10px;
@@ -469,18 +487,18 @@ h1 span{
     padding: 20px 0;
 }
 
-.about .content-sec .icon-soc li a:hover{
+.about .content-sec .icon-soc li a:hover {
     transform: translateY(-18px);
 }
 
-.about .image-sec{
+.about .image-sec {
     float: right;
     width: 45%;
     position: relative;
     animation: slideDown 3s;
 }
 
-.about .image-sec::after{
+.about .image-sec::after {
     content: '';
     position: absolute;
     left: -30px;
@@ -491,37 +509,41 @@ h1 span{
     z-index: -1;
 }
 
-.about .image-sec img{
+.about .image-sec img {
     height: auto;
     width: 105%;
 }
 
-.about .content-sec .content h3{
-   margin: 20px 0;
-   color: #0c436b;
-   font-size: 21px;
+.about .content-sec .content h3 {
+    margin: 20px 0;
+    color: #0c436b;
+    font-size: 21px;
 }
 
-.about .content-sec .content p{
+.about .content-sec .content p {
     margin: 10px 0;
     line-height: 1.5;
 }
+
 /* A propos page*/
-.direction{
+.direction {
     display: flex;
     justify-content: space-around;
     padding: 40px;
 }
-.photo{
+
+.photo {
     width: 400px;
     border-radius: 10px;
 }
-.photo_profil{
+
+.photo_profil {
     display: flex;
     align-items: center;
     animation: slideDown 3s;
 }
-.infoperso{
+
+.infoperso {
     color: #eee;
     background: rgba(24, 120, 148, 0.5);
     padding: 70px;
@@ -531,35 +553,41 @@ h1 span{
     width: 65%;
     animation: slideDown1 3s;
 }
-.infoperso strong{
+
+.infoperso strong {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.8;
     color: #222;
 }
-.infoperso .info span{
+
+.infoperso .info span {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
     font-size: 2rem;
 }
-.infoperso .info .titre{
+
+.infoperso .info .titre {
     font-size: 1.8rem;
     text-transform: none;
     color: #ddd;
 }
-.infoperso h4{
+
+.infoperso h4 {
     font-size: 1.8rem;
     margin: 25px 0 5px 0;
 }
-.infoperso .description{
+
+.infoperso .description {
     font-size: 1.8rem;
     color: #ddd;
     line-height: 1.8;
     text-align: justify;
     margin-top: 10px;
 }
-main h3{
+
+main h3 {
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
@@ -569,7 +597,7 @@ main h3{
     padding-top: 30px;
 }
 
-.infoperso .icon-soc{
+.infoperso .icon-soc {
     position: relative;
     display: flex;
     justify-content: center;
@@ -578,11 +606,11 @@ main h3{
     flex-wrap: wrap;
 }
 
-.infoperso .icon-soc li{
+.infoperso .icon-soc li {
     list-style: none;
 }
 
-.infoperso .icon-soc li a{
+.infoperso .icon-soc li a {
     font-size: 3.8rem;
     color: #fff;
     margin: 0 10px;
@@ -591,18 +619,18 @@ main h3{
     padding: 20px 0;
 }
 
-.infoperso .icon-soc li a:hover{
+.infoperso .icon-soc li a:hover {
     transform: translateY(-18px);
 }
 
 
 /* fin de page a propos*/
 
-/* Fin About section */ 
+/* Fin About section */
 
 /* service section */
 
-.container h1{
+.container h1 {
     text-align: center;
     padding-top: 10%;
     margin-bottom: 60px;
@@ -610,7 +638,7 @@ main h3{
     position: relative;
 }
 
-.container h1::after{
+.container h1::after {
     content: '';
     background: #0c436b;
     width: 100px;
@@ -621,13 +649,13 @@ main h3{
     transform: translateX(-50%);
 }
 
-.row{
+.row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 50px;
 }
 
-.service{
+.service {
     text-align: center;
     padding: 25px 10px;
     border-radius: 5px;
@@ -637,22 +665,24 @@ main h3{
     box-shadow: var(--box-shadow);
     animation: slideDown1 3s;
 }
-.service p{
+
+.service p {
     color: #444;
 }
-.service h2{
+
+.service h2 {
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.service:hover{
+.service:hover {
     background: #187894;
     color: #fff;
     transform: scale(1.05);
 }
 
 /*partie Certification */
-.row_cert{
+.row_cert {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 50px;
@@ -661,7 +691,7 @@ main h3{
 
 }
 
-.cert{
+.cert {
     text-align: center;
     padding: 25px 0;
     border-radius: 5px;
@@ -672,59 +702,68 @@ main h3{
     animation: slideDown1 3s;
 }
 
-.cert h2{
+.cert h2 {
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.cert:hover{
+.cert:hover {
     background: #187894;
     color: #fff;
     transform: scale(1.05);
 }
 
-.certification{
+.certification {
     width: 60%;
     margin: 20px auto;
 }
-.certification p{
+
+.certification p {
     margin-bottom: 40px;
 }
-.certification h3{
+
+.certification h3 {
     font-size: 2rem;
     padding-bottom: 30px;
 }
+
 /*fin partie certification */
 
-.nosservice{
+.nosservice {
     width: 90%;
     padding: 40px 70px;
     background: #fff;
     margin: 0 auto;
 }
-.nosservice .text_para h4{
+
+.nosservice .text_para h4 {
     font-size: 2.5rem;
     color: #444;
     text-align: center;
     padding-top: 40px;
 }
-.nosservice .text_para{
+
+.nosservice .text_para {
     text-align: center;
     margin: 0 auto;
     padding: 20px;
 }
-.nosservice .text_para p{
+
+.nosservice .text_para p {
     text-align: center;
     padding: 20px;
 }
-.nosservice .solut{
+
+.nosservice .solut {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nosservice .solut .presta{
+
+.nosservice .solut .presta {
     position: relative;
 }
+
 .nosservice .solut .check_list {
     display: flex;
     justify-content: space-between;
@@ -733,34 +772,39 @@ main h3{
     font-size: 1.5rem;
     padding: 30px 0;
 }
-.nosservice .check_list{
+
+.nosservice .check_list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-right: 10px;
 }
-.nosservice .ri-check-double-line{
+
+.nosservice .ri-check-double-line {
     color: #0c436b;
     font-weight: bold;
     font-size: 2rem;
     margin-right: 5px;
 }
 
-.raison{
+.raison {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
-.raison .img{
+
+.raison .img {
     width: 60%;
     border-radius: 1px;
 }
-.service-img{
+
+.service-img {
     display: flex;
     align-items: center;
     animation: slideDown 3s;
 }
-.qualite{
+
+.qualite {
     color: #444;
     background: rgba(12, 67, 107, 0.1);
     padding: 40px;
@@ -771,12 +815,14 @@ main h3{
     animation: slideDown1 3s;
     margin-right: 20px;
 }
-.list{
+
+.list {
     font-size: 1.5rem;
     padding: 20px 0;
     line-height: 1.8;
 }
-.nosservice .ri-check-double-line{
+
+.nosservice .ri-check-double-line {
     color: #187894;
     font-weight: bold;
     font-size: 2rem;
@@ -787,7 +833,7 @@ main h3{
 
 /* contact section */
 
-.contact{
+.contact {
     position: relative;
     min-height: 100vh;
     padding: 50px 50px;
@@ -797,12 +843,12 @@ main h3{
     flex-direction: column;
 }
 
-.contact .container{
+.contact .container {
     max-width: 800px;
     text-align: center;
 }
 
-.contact .container1{
+.contact .container1 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -810,21 +856,21 @@ main h3{
     margin-top: 30px;
 }
 
-.contact .container1 .contactinfo{
+.contact .container1 .contactinfo {
     width: 40%;
     display: flex;
     flex-direction: column;
     animation: slideDown1 3s;
 }
 
-.contact .container1 .contactinfo .box{
+.contact .container1 .contactinfo .box {
     position: relative;
     padding: 20px 0;
     display: flex;
     border-radius: 5px;
 }
 
-.contact .container1 .contactinfo .box .icon{
+.contact .container1 .contactinfo .box .icon {
     min-width: 60px;
     height: 60px;
     background: #187894;
@@ -837,7 +883,7 @@ main h3{
     color: #fff;
 }
 
-.contact .container1 .contactinfo .box .text{
+.contact .container1 .contactinfo .box .text {
     display: flex;
     font-size: 2.5rem;
     flex-direction: column;
@@ -845,16 +891,17 @@ main h3{
     padding: 0;
 }
 
-.contact .container1 .contactinfo .box .text h2{
+.contact .container1 .contactinfo .box .text h2 {
     font-weight: 500;
     color: #0c436b;
     font-size: 2.5rem;
 }
-.contact .container1 .contactinfo .box .text p{
-    color:var(--black);
+
+.contact .container1 .contactinfo .box .text p {
+    color: var(--black);
 }
 
-.contact .container1 .contactform{
+.contact .container1 .contactform {
     width: 55%;
     padding: 30px;
     background: #fff;
@@ -863,18 +910,18 @@ main h3{
     animation: slideDown 3s;
 }
 
-.contact .container1 .contactform h2{
+.contact .container1 .contactform h2 {
     font-size: 2.8rem;
 }
 
-.contact .container1 .contactform .inputbox{
+.contact .container1 .contactform .inputbox {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
 
 .contact .container1 .contactform .inputbox input,
-.contact .container1 .contactform .inputbox textarea{
+.contact .container1 .contactform .inputbox textarea {
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -885,7 +932,7 @@ main h3{
     resize: none;
 }
 
-.contactform .inputbox span{
+.contactform .inputbox span {
     position: absolute;
     left: 0;
     padding: 5px 0;
@@ -896,15 +943,15 @@ main h3{
     color: #777;
 }
 
-.contactform .inputbox input:focus ~ span,
-.contactform .inputbox input:valid ~ span,
-.contactform .inputbox textarea:focus ~ span,
-.contactform .inputbox textarea:valid ~ span{
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:focus~span,
+.contactform .inputbox textarea:valid~span {
     font-size: 12px;
     transform: translateY(-20px);
 }
 
-.contactform .inputbox input[type="submit"]{
+.contactform .inputbox input[type="submit"] {
     width: 100%;
     background: #0c436b;
     color: #fff;
@@ -914,7 +961,7 @@ main h3{
     font-size: 18px;
 }
 
-.contact .container1 .icon-soc{
+.contact .container1 .icon-soc {
     position: relative;
     display: flex;
     justify-content: center;
@@ -923,11 +970,11 @@ main h3{
     flex-wrap: wrap;
 }
 
-.contact .container1 .icon-soc li{
+.contact .container1 .icon-soc li {
     list-style: none;
 }
 
-.contact .container1 .icon-soc li a{
+.contact .container1 .icon-soc li a {
     font-size: 3.5rem;
     color: #187894;
     margin: 0 10px;
@@ -936,7 +983,7 @@ main h3{
     padding: 20px 0;
 }
 
-.contact .container1 .icon-soc li a:hover{
+.contact .container1 .icon-soc li a:hover {
     transform: translateY(-18px);
 }
 
@@ -944,7 +991,7 @@ main h3{
 
 /* section about */
 
-footer{
+footer {
     position: relative;
     width: 100%;
     min-height: 100px;
@@ -956,7 +1003,7 @@ footer{
     flex-direction: column;
 }
 
-footer .navbar a{
+footer .navbar a {
     font-size: 1.5rem;
     color: #fff;
     margin: 0 10px;
@@ -966,11 +1013,11 @@ footer .navbar a{
     text-transform: uppercase;
 }
 
-footer .navbar a:hover{
+footer .navbar a:hover {
     opacity: 1;
 }
 
-footer p{
+footer p {
     color: #fff;
     text-align: center;
     margin-top: 15px;
@@ -980,7 +1027,7 @@ footer p{
 
 /*scroll up */
 
-.scrollup{
+.scrollup {
     position: fixed;
     right: 1rem;
     bottom: -20%;
@@ -991,99 +1038,116 @@ footer p{
     z-index: 2;
     transition: .4s;
 }
-.scrollup_icon{
+
+.scrollup_icon {
     color: #fff;
     font-size: 4rem;
     border: 2px solid;
 }
-.scrollup:hover{
+
+.scrollup:hover {
     background-color: #0c436b;
     opacity: 2;
 }
 
 /*show scroll */
-.show-scroll{
+.show-scroll {
     bottom: 5rem;
 }
 
 @keyframes slideDown {
-    from{
+    from {
         transform: translateX(200px);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateX(0);
         opacity: 1;
     }
 }
 
 @keyframes slideDown1 {
-    from{
+    from {
         transform: translateY(200px);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
 
-@media (max-width:965){
-    html{
+@media screen and (max-width:965px) {
+    html {
         font-size: 55%;
     }
-    .header{
+
+    .header {
         padding: 2rem;
     }
-    .direction{
+
+    .direction {
         display: block;
     }
-    .photo_profil{
+
+    .photo_profil {
         display: block;
     }
-    .infoperso{
+
+    .infoperso {
         background: rgba(24, 120, 148, 0.5);
         width: 65%;
     }
-    .container h1{
+
+    .container h1 {
         text-align: center;
     }
-    .content{
+
+    .content {
         text-align: center;
     }
-    section{
+
+    section {
         padding: 2rem;
     }
-    .contact{
+
+    .contact {
         padding: 10px;
         justify-content: space-between;
     }
-    .contact .container1{
+
+    .contact .container1 {
         flex-direction: column;
     }
-    .contact .container1 .contactinfo{
+
+    .contact .container1 .contactinfo {
         margin-bottom: 40px;
     }
-    .contact .container1 .contactinfo .contactform{
+
+    .contact .container1 .contactinfo .contactform {
         width: 100%;
     }
-    .infoperso{
+
+    .infoperso {
         background: rgba(24, 120, 148, 0.5);
         box-shadow: 0 5px 25px rgb(2 2 2 /5%);
         width: 65%;
     }
 }
 
-@media (max-width:786px){
-   #menu-btn{
-       display: initial;
-   }
-    .btn{
-    font-size: 2rem;
+@media screen and (max-width:786px) {
+    #menu-btn {
+        display: initial;
     }
-   
-    .nav_menu{
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    .nav_menu {
         position: fixed;
         background-color: #0c436b;
         top: 0;
@@ -1094,95 +1158,113 @@ footer p{
         transition: .4s;
         box-shadow: -1px 0 4px rgba(22, 255, 5, 64%, 15%, .15);
     }
-    .nav_link{
+
+    .nav_link {
         color: #fff;
     }
-    .nav_list{
+
+    .nav_list {
         display: block;
         text-align: center;
     }
-    .navitem{
+
+    .navitem {
         margin: 35px 0;
-        padding: 8px 0; 
+        padding: 8px 0;
         font-size: 1.8rem;
     }
+
     .nav_toggle,
-    .nav_close{
+    .nav_close {
         display: initial;
     }
 
-   .header .navbar a{
-       font-size: 1.8rem;
-       display: block;
-       margin: 25px 0;
-       padding: 8px 0;
-       text-align: center;
-   }
-    
-   h1{
+    .header .navbar a {
+        font-size: 1.8rem;
+        display: block;
+        margin: 25px 0;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    h1 {
         text-transform: uppercase;
         font-size: 4.5rem;
         font-weight: 500;
     }
 
-    .banniere .content{
+    .banniere .content {
         padding: 100px 0;
     }
-    .banniere .content h2{
+
+    .banniere .content h2 {
         font-size: 7rem;
     }
-    .banniere .content p{
-        font-size: 4rem;
-    }
-    .banniere .content a{
-        font-size: 2.8rem;
-    }
-    .ban-res .content h2{
-        font-size: 4rem;
-    }
-    .ban-devo .content h2{
-        font-size: 4rem;
-    }
-    .ban-donne .content h2{
-        font-size: 4rem;
-    }
-    .ban-code-dev .content h2{
-        font-size: 4rem;
-    }
-    .ban-secu .content h2{
+
+    .banniere .content p {
         font-size: 4rem;
     }
 
-    .container h1{
+    .banniere .content a {
+        font-size: 2.8rem;
+    }
+
+    .ban-res .content h2 {
+        font-size: 4rem;
+    }
+
+    .ban-devo .content h2 {
+        font-size: 4rem;
+    }
+
+    .ban-donne .content h2 {
+        font-size: 4rem;
+    }
+
+    .ban-code-dev .content h2 {
+        font-size: 4rem;
+    }
+
+    .ban-secu .content h2 {
+        font-size: 4rem;
+    }
+
+    .container h1 {
         text-align: center;
         padding-top: 10%;
         margin-top: 60px;
         font-weight: 600;
         position: relative;
     }
-    .about .container{
+
+    .about .container {
         width: 100%;
         display: block;
         margin: 10px;
         padding-top: 30px;
     }
-    .about .content-sec{
+
+    .about .content-sec {
         float: none;
         width: 100%;
         display: block;
         margin-bottom: 5px;
         text-align: center;
     }
-    .about .content-sec .titre h1{
-        font-size:4.5rem;
+
+    .about .content-sec .titre h1 {
+        font-size: 4.5rem;
     }
-    .about .content-sec .content h3{
+
+    .about .content-sec .content h3 {
         font-size: 3rem;
     }
-    .about .content-sec .content p{
+
+    .about .content-sec .content p {
         font-size: 1.8rem;
     }
-    .about .image-sec{
+
+    .about .image-sec {
         float: none;
         width: 100%;
         height: 100%;
@@ -1190,7 +1272,8 @@ footer p{
         margin-top: 25px;
         position: relative;
     }
-    .about .image-sec::after{
+
+    .about .image-sec::after {
         content: '';
         position: absolute;
         left: -30px;
@@ -1200,355 +1283,429 @@ footer p{
         border: 7px solid #0c436b;
         z-index: -1;
     }
-    .about .image-sec img{
+
+    .about .image-sec img {
         height: auto;
         width: 100%;
         display: block;
         margin-top: 25px;
     }
-    
-    .direction{
+
+    .direction {
         display: block;
         padding: 20px 0;
     }
-    .photo{
+
+    .photo {
         width: 100%;
         border-radius: 10px;
     }
-    .photo_profil{
+
+    .photo_profil {
         display: block;
     }
-    .infoperso{
+
+    .infoperso {
         align-items: center;
         width: 100%;
         background: rgba(24, 120, 148, 0.5);
         padding: 30px;
         margin: 5px 0;
     }
-   
-    .service h2{
+
+    .service h2 {
         font-size: 2.2rem;
     }
-    .service p{
+
+    .service p {
         font-size: 1.8rem;
     }
-    .nosservice{
+
+    .nosservice {
         width: 100%;
         padding: 40px 40px;
         background: #fff;
         margin: 0 auto;
     }
-    .nosservice .solut{
+
+    .nosservice .solut {
         display: block;
     }
-    .nosservice .solut .check_list{
+
+    .nosservice .solut .check_list {
         display: block;
         font-size: 1.8rem;
         line-height: 1.8;
     }
-    .nosservice .text_para h4{
+
+    .nosservice .text_para h4 {
         font-size: 2.3rem;
         color: #444;
     }
-    .raison{
+
+    .raison {
         display: block;
     }
-    .raison .img{
+
+    .raison .img {
         width: 100%;
         border-radius: 1px;
         margin-top: 10px;
     }
-    .service-img{
+
+    .service-img {
         display: block;
         align-items: center;
         animation: slideDown 3s;
     }
-    .qualite{
+
+    .qualite {
         color: #444;
         width: 100%;
     }
-    .qualite .list, p{
-       font-size: 1.8rem;
+
+    .qualite .list,
+    p {
+        font-size: 1.8rem;
     }
 
-    .contact{
-       padding: 10px;
+    .contact {
+        padding: 10px;
     }
 
-    .contact .container1{
+    .contact .container1 {
         display: block;
         width: 100%;
     }
-    .contact .container1 .contactform{
+
+    .contact .container1 .contactform {
         width: 100%;
     }
-    .contact .container1 .contactform .text{
+
+    .contact .container1 .contactform .text {
         font-size: 3rem;
     }
-    .contact .container1 .contactinfo .box .text h2{
+
+    .contact .container1 .contactinfo .box .text h2 {
         padding: 5px 0;
     }
-    .contact .container1 .contactinfo .box .text p{
+
+    .contact .container1 .contactinfo .box .text p {
         padding: 5px 0;
         font-size: 2.2rem;
     }
 
-    .row_cert{
+    .row_cert {
         margin-right: 50px;
     }
-    .certification{
+
+    .certification {
         width: 90%;
         margin: 20px auto;
     }
 
-    main{
-        margin: 20px; 
+    main {
+        margin: 20px;
     }
 
 }
 
 
-@media (max-width:694px){
-    html{
+@media screen and (max-width:694px) {
+    html {
         font-size: 50%;
     }
 
-    h1{
+    h1 {
         text-transform: uppercase;
         font-size: 4.5rem;
         font-weight: 500;
     }
-    p{
+
+    p {
         line-height: 1.8;
     }
-    h2{
+
+    h2 {
         font-size: 3rem;
     }
 
-    h3{
+    h3 {
         font-size: 3.5rem;
     }
-    .btn{
+
+    .btn {
         font-size: 3rem;
     }
 
-    .banniere .content{
+    .banniere .content {
         padding: 100px 0;
     }
-    .banniere .content h2{
+
+    .banniere .content h2 {
         font-size: 7rem;
     }
-    .banniere .about h2{
+
+    .banniere .about h2 {
         font-size: 4rem;
         text-align: center;
         margin-top: 50px;
     }
-    .banniere .content p{
-        font-size: 2.8rem;
-    }
-    .banniere .content a{
+
+    .banniere .content p {
         font-size: 2.8rem;
     }
 
-    .about .content-sec .content p{
+    .banniere .content a {
         font-size: 2.8rem;
     }
-    .about .content-sec .titre h1{
+
+    .about .content-sec .content p {
+        font-size: 2.8rem;
+    }
+
+    .about .content-sec .titre h1 {
         font-size: 4.5rem;
     }
-   
-    .about .image-sec img{
+
+    .about .image-sec img {
         height: auto;
         width: 100%;
         display: block;
         margin-top: 25px;
     }
 
-    .service h2{
+    .service h2 {
         font-size: 3rem;
     }
-    .service p{
+
+    .service p {
         font-size: 2.4rem;
     }
-    .ban-res .content h2{
+
+    .ban-res .content h2 {
         font-size: 4rem;
     }
-    .ban-devo .content h2{
+
+    .ban-devo .content h2 {
         font-size: 4rem;
     }
-    .ban-donne .content h2{
+
+    .ban-donne .content h2 {
         font-size: 4rem;
     }
-    .ban-code-dev .content h2{
+
+    .ban-code-dev .content h2 {
         font-size: 4rem;
     }
-    .ban-secu .content h2{
+
+    .ban-secu .content h2 {
         font-size: 4rem;
     }
-    .nosservice .solut .check_list{
+
+    .nosservice .solut .check_list {
         display: block;
         font-size: 2rem;
         line-height: 1.8;
     }
 
-    .contact{
+    .contact {
         padding: 10px;
     }
-    .contact .container1{
-         display: block;
-         width: 100%;
+
+    .contact .container1 {
+        display: block;
+        width: 100%;
     }
-    .contact .container1 .contactform{
+    .contact .container1 .contactinfo {
         width: 100%;
         margin: 0;
     }
-    .contact .container1 .contactform .text{
-        font-size: 3rem;
-    }
-    .contact .container1 .contactinfo .box .text h2{
-        padding: 5px 0;
-    }
-    .contact .container1 .contactinfo .box .text p{
-        padding: 5px 0;
-        font-size: 2.4rem;
+
+    .contact .container1 .contactform {
+        width: 100%;
+        margin: 0;
     }
 
-    .qualite{
-        color: #444;
-        width: 100%;
-    } 
-    .qualite .list, p{
+    .contact .container1 .contactform .text {
+        font-size: 3rem;
+    }
+
+    .contact .container1 .contactinfo .box .text h2 {
+        padding: 5px 0;
+    }
+
+    .contact .container1 .contactinfo .box .text p {
+        padding: 5px 0;
         font-size: 2rem;
     }
+
+    .qualite {
+        color: #444;
+        width: 100%;
+    }
+
+    .qualite .list,
+    p {
+        font-size: 2rem;
+    }
+
     .nosservice .solut .check_list {
         line-height: 1.8;
     }
-    .nosservice .text_para h4{
+
+    .nosservice .text_para h4 {
         font-size: 2.4rem;
         color: #444;
     }
 
 }
 
-@media (max-width:450px){
-    html{
+@media screen and (max-width:450px) {
+    html {
         font-size: 50%;
     }
 
-    h1{
+    h1 {
         text-transform: uppercase;
         font-size: 3rem;
         font-weight: 500;
     }
 
-    p{
+    p {
         font-size: 2.2rem;
         line-height: 1.8;
     }
-    .nosservice{
+
+    .nosservice {
         width: 100%;
         padding: 30px 20px;
     }
-    .nosservice .text_para p{
+
+    .nosservice .text_para p {
         padding: 30px 0;
         line-height: 1.8;
     }
-    .nosservice .solut .check_list li{
+
+    .nosservice .solut .check_list li {
         font-size: 2.2rem;
         line-height: 1.8;
     }
-    .ban-res .content h2{
+
+    .ban-res .content h2 {
         font-size: 3rem;
     }
-    .ban-devo .content h2{
+
+    .ban-devo .content h2 {
         font-size: 3rem;
     }
-    .ban-donne .content h2{
+
+    .ban-donne .content h2 {
         font-size: 3rem;
     }
-    .ban-code-dev .content h2{
+
+    .ban-code-dev .content h2 {
         font-size: 3rem;
     }
-    .ban-secu .content h2{
+
+    .ban-secu .content h2 {
         font-size: 3rem;
     }
-    .qualite{
+
+    .qualite {
         color: #444;
         width: 100%;
     }
-    .qualite .list{
+
+    .qualite .list {
         font-size: 2.2rem;
     }
-    .qualite p{
+
+    .qualite p {
         font-size: 2.2rem;
     }
-    .nosservice .solut .check_list{
+
+    .nosservice .solut .check_list {
         line-height: 1.8;
     }
-    .nosservice .text_para h4{
+
+    .nosservice .text_para h4 {
         font-size: 2.5rem;
         color: #444;
     }
 
-    .btn{
+    .btn {
         font-size: 2.5rem;
     }
-    .about .content-sec .titre h1{
+
+    .about .content-sec .titre h1 {
         font-size: 4rem;
     }
-    .about .content-sec p{
+
+    .about .content-sec p {
         text-align: center;
     }
 
-    .contact .container1{
+    .contact .container1 {
         display: block;
     }
-    .contact .container1 .contactinfo{
+
+    .contact .container1 .contactinfo {
         width: 100%;
     }
-    .contact .container1 .contactinfo .box{
+
+    .contact .container1 .contactinfo .box {
         display: block;
     }
-    .contact .container1 .contactinfo .box .icon{
+
+    .contact .container1 .contactinfo .box .icon {
         margin: 0 auto;
         border-radius: 50%;
         width: 60px;
         height: 60px;
     }
-    .contact .container1 .contactinfo .box .text{
+
+    .contact .container1 .contactinfo .box .text {
         margin: 0 auto;
     }
-    .contact .container1 .contactinfo .box .text h2{
+
+    .contact .container1 .contactinfo .box .text h2 {
         font-size: 3rem;
         margin: 0 auto;
         padding: 5px 0;
     }
-    .contact .container1 .contactinfo .box .text p{
+
+    .contact .container1 .contactinfo .box .text p {
         margin: 0 auto;
         padding: 5px 0;
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
-    .contact .container1 .contactform{
+
+    .contact .container1 .contactform {
         width: 100%;
     }
-    .contact .container1 .contactform h2{
+
+    .contact .container1 .contactform h2 {
         font-size: 3rem;
     }
-    footer{
+
+    footer {
         padding: 20px 10px;
     }
-    footer .navbar a{
+
+    footer .navbar a {
         font-size: 1.5rem;
         margin: 0 3px;
     }
-    .cert h2{
+
+    .cert h2 {
         font-size: 2rem;
         font-weight: 600;
     }
 }
 
 /* nav close */
-.nav_close{
+.nav_close {
     position: absolute;
     top: .75rem;
     right: 1rem;
@@ -1557,20 +1714,226 @@ footer p{
     cursor: pointer;
 }
 
-.show-menu{
+.show-menu {
     right: 0;
 }
 
+/* partie slider */
 
+.slider {
+    position: relative;
+    width: 100%;
+    background: #0c436b;
+}
 
+.messlides {
+    height: 600px;
+    display: none;
+    overflow: hidden;
+}
 
+.prec,
+.suiv {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.2s;
+    user-select: none;
+}
 
+.prec:hover,
+.suiv:hover {
+    color: #0c436b;
+}
 
+.suiv {
+    right: 0;
+}
 
+.pointbox {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
+}
 
+.point {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
 
+.active,
+.point:hover {
+    border-color: #0c436b;
+}
 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.8s;
+    animation-name: fade;
+    animation-duration: 1.8s;
+}
 
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.8;
+    }
 
+    to {
+        opacity: 1;
+    }
+}
 
+@keyframes fade {
+    from {
+        opacity: 0.8;
+    }
 
+    to {
+        opacity: 1;
+    }
+}
+
+.test {
+    position: absolute;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 35px;
+    top: 40%;
+    left: 20%;
+    -webkit-animation-name: position;
+    -webkit-animation-duration: 2s;
+    animation-name: position;
+    animation-duration: 2s;
+    z-index: 1;
+    background: rgba(24, 120, 148, 0.8);
+}
+
+@-webkit-keyframes position {
+    from {
+        left: 30%;
+    }
+
+    to {
+        left: 20%;
+    }
+}
+
+@keyframes position {
+    from {
+        left: 30%;
+    }
+
+    to {
+        left: 20%;
+    }
+}
+
+.test h1 {
+    color: #fff;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.test p {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 30px;
+}
+
+img {
+    transform: scale(1.5, 1.5);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 40s;
+    animation-name: zoomin;
+    animation-duration: 40s;
+}
+
+@-webkit-keyframes zoomin {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoomin {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .messlides {
+        height: 500px;
+    }
+
+    .test {
+        line-height: 25px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-animation-name: position2;
+        -webkit-animation-duration: 2s;
+        animation-name: position2;
+        animation-duration: 2s;
+    }
+
+    @-webkit-keyframes position2 {
+        from {
+            top: 35%;
+        }
+
+        to {
+            top: 50%;
+        }
+    }
+
+    @keyframes position2 {
+        from {
+            top: 35%;
+        }
+
+        to {
+            top: 50%;
+        }
+    }
+
+    .test h1 {
+        font-size: 40px;
+    }
+
+    .test p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .test h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .test h1 {
+        font-size: 40px;
+    }
+}
+
+/*fin partie slider*/
