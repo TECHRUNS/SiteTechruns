@@ -178,49 +178,6 @@ h1 span {
     padding: 0 8%;
 }
 
-.banniere {
-    background-image: url(images/data.jpg);
-    background-repeat: no-repeat;
-}
-
-.banniere .content {
-    text-align: center;
-    padding: 150px;
-    box-shadow: 0 0 5px 0 #fff;
-    background: rgba(24, 120, 148, 0.1);
-}
-
-.banniere .content h2 {
-    font-size: 7rem;
-    color: var(--blue);
-    line-height: 1.8;
-    text-shadow: var(--text-shadow);
-    text-transform: uppercase;
-}
-
-.banniere .content p {
-    font-size: 3rem;
-    color: #eee;
-    line-height: 1.8;
-    text-transform: capitalize;
-    font-weight: 500;
-}
-
-.banniere .content p span {
-    color: #0c436b;
-    font-weight: 600;
-}
-
-.banniere .content a {
-    color: #fff;
-}
-
-.banniere .about h2 {
-    color: #eee;
-    font-size: 4rem;
-    text-align: center;
-}
-
 /*dev web*/
 .ban-code-dev {
     background-image: url(./images/Banner-code.jpg);
@@ -526,66 +483,6 @@ h1 span {
 }
 
 /* A propos page*/
-.direction {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-}
-
-.photo {
-    width: 400px;
-    border-radius: 10px;
-}
-
-.photo_profil {
-    display: flex;
-    align-items: center;
-    animation: slideDown 3s;
-}
-
-.infoperso {
-    color: #eee;
-    background: rgba(24, 120, 148, 0.5);
-    padding: 70px;
-    border-radius: 5px;
-    box-shadow: 0 5px 25px rgb(2 2 2 /5%);
-    align-items: center;
-    width: 65%;
-    animation: slideDown1 3s;
-}
-
-.infoperso strong {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 1.8;
-    color: #222;
-}
-
-.infoperso .info span {
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.infoperso .info .titre {
-    font-size: 1.8rem;
-    text-transform: none;
-    color: #ddd;
-}
-
-.infoperso h4 {
-    font-size: 1.8rem;
-    margin: 25px 0 5px 0;
-}
-
-.infoperso .description {
-    font-size: 1.8rem;
-    color: #ddd;
-    line-height: 1.8;
-    text-align: justify;
-    margin-top: 10px;
-}
 
 main h3 {
     font-size: 3.5rem;
@@ -596,33 +493,6 @@ main h3 {
     margin-top: 10px;
     padding-top: 30px;
 }
-
-.infoperso .icon-soc {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-}
-
-.infoperso .icon-soc li {
-    list-style: none;
-}
-
-.infoperso .icon-soc li a {
-    font-size: 3.8rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.8s;
-    padding: 20px 0;
-}
-
-.infoperso .icon-soc li a:hover {
-    transform: translateY(-18px);
-}
-
 
 /* fin de page a propos*/
 
@@ -673,9 +543,10 @@ main h3 {
 .service h2 {
     font-weight: 600;
     margin-bottom: 10px;
+    padding-top: 10px;
 }
 
-.service:hover {
+.service:hover{
     background: #187894;
     color: #fff;
     transform: scale(1.05);
@@ -861,6 +732,9 @@ main h3 {
     display: flex;
     flex-direction: column;
     animation: slideDown1 3s;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    box-shadow: 0 5px 5px #0c436b;
 }
 
 .contact .container1 .contactinfo .box {
@@ -903,11 +777,10 @@ main h3 {
 
 .contact .container1 .contactform {
     width: 55%;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0 0 300px 0 #187894;
+    padding: 30px; 
     margin-top: 20px;
     animation: slideDown 3s;
+    background: #187894;
 }
 
 .contact .container1 .contactform h2 {
@@ -918,6 +791,7 @@ main h3 {
     position: relative;
     width: 100%;
     margin-top: 10px;
+    
 }
 
 .contact .container1 .contactform .inputbox input,
@@ -930,24 +804,27 @@ main h3 {
     border-bottom: 2px solid #0c436b;
     outline: none;
     resize: none;
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #0c436b;
 }
 
 .contactform .inputbox span {
     position: absolute;
     left: 0;
-    padding: 5px 0;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 1.5rem;
     margin: 10px 0;
     pointer-events: none;
     transition: 0.5s;
-    color: #777;
+    color: #444;
 }
 
 .contactform .inputbox input:focus~span,
 .contactform .inputbox input:valid~span,
 .contactform .inputbox textarea:focus~span,
 .contactform .inputbox textarea:valid~span {
-    font-size: 12px;
+    font-size: 1.8rem;
     transform: translateY(-20px);
 }
 
@@ -958,7 +835,8 @@ main h3 {
     border: none;
     cursor: pointer;
     padding: 10px;
-    font-size: 18px;
+    font-size: 2.2rem;
+    box-shadow: 0 5px 10px #0c436b;
 }
 
 .contact .container1 .icon-soc {
@@ -1089,25 +967,13 @@ footer p {
         padding: 2rem;
     }
 
-    .direction {
-        display: block;
-    }
-
-    .photo_profil {
-        display: block;
-    }
-
-    .infoperso {
-        background: rgba(24, 120, 148, 0.5);
-        width: 65%;
-    }
-
     .container h1 {
         text-align: center;
     }
 
-    .content {
-        text-align: center;
+    .about .content p{
+        text-align: justify;
+        font-size: 2.2rem;
     }
 
     section {
@@ -1125,16 +991,19 @@ footer p {
 
     .contact .container1 .contactinfo {
         margin-bottom: 40px;
+        width: 100%;
     }
 
     .contact .container1 .contactinfo .contactform {
         width: 100%;
     }
 
-    .infoperso {
-        background: rgba(24, 120, 148, 0.5);
-        box-shadow: 0 5px 25px rgb(2 2 2 /5%);
-        width: 65%;
+    .contact .container1 {
+        display: block;
+    }
+
+    .contact .container1 .contactform {
+        width: 100%;
     }
 }
 
@@ -1193,22 +1062,6 @@ footer p {
         font-weight: 500;
     }
 
-    .banniere .content {
-        padding: 100px 0;
-    }
-
-    .banniere .content h2 {
-        font-size: 7rem;
-    }
-
-    .banniere .content p {
-        font-size: 4rem;
-    }
-
-    .banniere .content a {
-        font-size: 2.8rem;
-    }
-
     .ban-res .content h2 {
         font-size: 4rem;
     }
@@ -1262,6 +1115,7 @@ footer p {
 
     .about .content-sec .content p {
         font-size: 1.8rem;
+        width: 100%;
     }
 
     .about .image-sec {
@@ -1289,28 +1143,6 @@ footer p {
         width: 100%;
         display: block;
         margin-top: 25px;
-    }
-
-    .direction {
-        display: block;
-        padding: 20px 0;
-    }
-
-    .photo {
-        width: 100%;
-        border-radius: 10px;
-    }
-
-    .photo_profil {
-        display: block;
-    }
-
-    .infoperso {
-        align-items: center;
-        width: 100%;
-        background: rgba(24, 120, 148, 0.5);
-        padding: 30px;
-        margin: 5px 0;
     }
 
     .service h2 {
@@ -1438,30 +1270,9 @@ footer p {
         font-size: 3rem;
     }
 
-    .banniere .content {
-        padding: 100px 0;
-    }
-
-    .banniere .content h2 {
-        font-size: 7rem;
-    }
-
-    .banniere .about h2 {
-        font-size: 4rem;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .banniere .content p {
-        font-size: 2.8rem;
-    }
-
-    .banniere .content a {
-        font-size: 2.8rem;
-    }
-
     .about .content-sec .content p {
         font-size: 2.8rem;
+        text-align: justify;
     }
 
     .about .content-sec .titre h1 {
@@ -1473,6 +1284,10 @@ footer p {
         width: 100%;
         display: block;
         margin-top: 25px;
+    }
+    
+    .about .content-sec{
+        width: 100%;
     }
 
     .service h2 {
@@ -1637,13 +1452,18 @@ footer p {
     .btn {
         font-size: 2.5rem;
     }
-
+    .about .content-sec{
+        width: 100%;
+    }
     .about .content-sec .titre h1 {
         font-size: 4rem;
     }
 
     .about .content-sec p {
-        text-align: center;
+        text-align: justify;
+    }
+    .about .image-sec{
+        width: 100%;
     }
 
     .contact .container1 {
@@ -1737,7 +1557,7 @@ footer p {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    font-size: 50px;
+    font-size: 5rem;
     padding: 15px;
     cursor: pointer;
     color: #fff;
@@ -1816,7 +1636,8 @@ footer p {
     animation-name: position;
     animation-duration: 2s;
     z-index: 1;
-    background: rgba(24, 120, 148, 0.8);
+    background: rgba(12, 17, 17, 0.8);
+    border-radius: 10px;
 }
 
 @-webkit-keyframes position {
@@ -1843,15 +1664,16 @@ footer p {
     color: #fff;
     font-weight: bold;
     margin: 20px;
+    font-size: 5rem;
 }
 
 .test p {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 30px;
 }
 
-img {
+.imag {
     transform: scale(1.5, 1.5);
     -webkit-animation-name: zoomin;
     -webkit-animation-duration: 40s;
@@ -1916,23 +1738,34 @@ img {
     }
 
     .test h1 {
-        font-size: 40px;
+        font-size: 4rem;
     }
 
     .test p {
-        font-size: 12px;
+        font-size: 2.2rem;
+        padding: 10px;
     }
 }
 
 @media screen and (max-width: 520px) {
     .test h1 {
-        font-size: 40px;
+        font-size: 3.2rem;
+    }
+    .test p{
+        font-size: 2rem;
+        padding: 8px;
     }
 }
 
 @media screen and (max-width: 420px) {
     .test h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
+    }
+    .test p{
+        font-size: 1.8rem;
+    }
+    .test{
+        background: rgba(12, 17, 17, 0.5);
     }
 }
 
