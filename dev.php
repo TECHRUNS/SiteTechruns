@@ -29,10 +29,13 @@
                         <a href="./about.php" class="nav_link">A Propos</a>
                     </li>
                     <li class="navitem">
-                        <a href="./index.php" class="nav_link">Services</a>
+                        <a href="#services" class="nav_link">Services</a>
                     </li>
                     <li class="navitem">
-                        <a href="./index.php" class="nav_link">Contact</a>
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="./recrutement.php" class="nav_link">Carrière</a>
                     </li>
                 </ul>
 

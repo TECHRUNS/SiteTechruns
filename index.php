@@ -35,7 +35,7 @@
                         <a href="#contact" class="nav_link">Contact</a>
                     </li>
                     <li class="navitem">
-                        <a href="#recrutement" class="nav_link">Carrière</a>
+                        <a href="./recrutement.php" class="nav_link">Carrière</a>
                     </li>
                 </ul>
 
@@ -163,7 +163,7 @@
                     optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
                 </p>
             </a>
-            <a href="#" class="service">
+            <a href="./com_manager.php" class="service">
                 <img src="https://img.icons8.com/clouds/100/000000/manager.png"/>
                 <h2>Community manager</h2>
                 <p>

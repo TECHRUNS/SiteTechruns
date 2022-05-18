@@ -23,13 +23,13 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="navitem">
-                        <a href="#acceuil" class="nav_link active-link">Acceuil</a>
+                        <a href="./index.php" class="nav_link active-link">Acceuil</a>
                     </li>
                     <li class="navitem">
                         <a href="./about.php" class="nav_link">A Propos</a>
                     </li>
                     <li class="navitem">
-                        <a href="#services" class="nav_link">Services</a>
+                        <a href="./index.php" class="nav_link">Services</a>
                     </li>
                     <li class="navitem">
                         <a href="#contact" class="nav_link">Contact</a>
