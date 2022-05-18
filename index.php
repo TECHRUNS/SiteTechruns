@@ -34,6 +34,9 @@
                     <li class="navitem">
                         <a href="#contact" class="nav_link">Contact</a>
                     </li>
+                    <li class="navitem">
+                        <a href="#recrutement" class="nav_link">Carrière</a>
+                    </li>
                 </ul>
 
                 <i class="ri-close-line nav_close" id="nav-close" ></i>
@@ -60,12 +63,12 @@
                     <h1>Teckruns</h1>
                     <p>Une équipe<br>des administrateurs système et réseau </p>
                 </div>
-                <img class="imag" src="./images/prof.jpg" style="width: 100%; height: 100%;" alt="">
+                <img class="imag" src="./images/rvi.jpg" style="width: 100%; height: 100%;" alt="">
             </div>
             <div class="messlides fade">
                 <div class="test">
                     <h1>Teckruns</h1>
-                    <p>Une équipe qui s'occupe de la sécurité de votre entreprise</p>
+                    <p>Une équipe <br> qui s'occupe de la sécurité de votre entreprise</p>
                 </div>
                 <img class="imag" src="./images/securité.jpg" style="width: 100%; height: 100%;" alt="">
             </div>
@@ -96,10 +99,9 @@
                 <div class="titre"><h1>A Propos de <span>nous</span></h1></div>
                 <div class="content">
                     <h3>Qui sommes-nous ?</h3>
-                    <p>Teckruns est une équipe des informaticiens professionnelles, 
-                        experts, dynamique et expérimentés capables de vous
-                        apporter des solutions adéquates et modernes a votre entreprise en fonction 
-                        de vos objectifs dans différents domaine de l'informatique.</p>
+                    <p> Teckruns est une équipe de professionnels, experts, dynamiques,
+                        expérimentés et spécialistes en TI capables de vous fournir des solutions 
+                        adaptées et modernes à votre entreprise en fonction de vos besoins et objectifs.</p>
                     <a href="./about.php" class="btn">En savoir plus</a>
                 </div> 
                 <ul class="icon-soc">
@@ -166,13 +168,6 @@
                 <h2>Community manager</h2>
                 <p>
                     Rapprochez-vous de vos clients grâce à votre précence sur les réseaux sociaux.  
-                </p>
-            </a>
-            <a href="#" class="service">
-                <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-recruitment-recruitment-agency-flaticons-lineal-color-flat-icons-10.png"/>
-                <h2>Recrutement</h2>
-                <p>
-                    
                 </p>
             </a>
         </div>
@@ -264,9 +259,10 @@
             
             <nav class="navbar">
                 <a href="#accueil" class="nav_link">Accueil</a>
-                <a href="./about.php" class="nav_link">A Propos</a>
+                <a href="#about" class="nav_link">A Propos</a>
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
+                <a href="#recrutement" class="nav_link">Carrière</a>
             </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>

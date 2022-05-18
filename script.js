@@ -1,12 +1,8 @@
-/*const menu = document.querySelector("#menu-btn");
-const navbar = document.querySelector(".navbar");
+const form1 = document.getElementById("btn1");
+const form2 = document.getElementById("btn2");
+const formulaire1 = document.querySelector(".form1");
+const formulaire2 = document.querySelector(".form2");
 
-menu.onclick = () => {
-  menu.classList.remove("fa-times");
-  navbar.classList.toggle("active");
-};*/
-
-/* nav close */
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
@@ -66,6 +62,23 @@ function scrolActive() {
     }
   });
 }
+
+// Partie formulaire
+
+form1.addEventListener("click", () => {
+  formulaire1.classList.add("formvisible");
+});
+form1.addEventListener("click", () => {
+  formulaire2.classList.remove("formvisible");
+});
+form2.addEventListener("click", () => {
+  formulaire2.classList.add("formvisible");
+});
+form2.addEventListener("click", () => {
+  formulaire1.classList.remove("formvisible");
+});
+
+// fin formulaire
 /* partie slide */
 const monslide = document.querySelectorAll(".messlides");
 point = document.querySelectorAll(".point");

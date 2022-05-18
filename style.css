@@ -3,7 +3,7 @@
 :root {
     --blue: #0c436b;
     --black: #444;
-    --bg: #ddd;
+    --bg: #eee;
     --light-color: #777;
     --box-shadow: .5rem .5rem 0 rgba(12, 67, 107, .2);
     --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    background: #eee;
+    background: var(--bg);
 }
 
 ul {
@@ -108,12 +108,11 @@ img {
 
 .nav_link {
     color: #0c436b;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 .nav_link:hover {
-    border: 2px solid #187894;
+    border: 0 solid #187894;
     padding: 8px 15px;
     border-radius: 50px/50px;
     background: rgba(24, 120, 148, 0.1);
@@ -268,8 +267,10 @@ h1 span {
 
 /* devops*/
 .ban-devo {
-    background-image: url(./images/devop.jpg);
+    background-image: url(./images/R7.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0c436b;
 }
 
 .ban-devo .content {
@@ -309,7 +310,51 @@ h1 span {
     font-size: 4rem;
     text-align: center;
 }
+/* community manager */
+.ban-com {
+    background-image: url(./images/sociaux.jpg);
+    background-repeat: no-repeat;
+}
 
+.ban-com .content {
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-com .content h2 {
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-com .content p {
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-com .content p span {
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-com .content a {
+    color: #fff;
+}
+
+.ban-com .about h2 {
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* fin com manager */
 /*securité audi*/
 .ban-secu {
     background-image: url(./images/securite.jpg);
@@ -532,7 +577,7 @@ main h3 {
     font-size: 12px;
     cursor: pointer;
     background: transparent;
-    box-shadow: var(--box-shadow);
+   border: 1.5px solid #0c436b;
     animation: slideDown1 3s;
 }
 
@@ -547,8 +592,6 @@ main h3 {
 }
 
 .service:hover{
-    background: #187894;
-    color: #fff;
     transform: scale(1.05);
 }
 
@@ -797,7 +840,7 @@ main h3 {
 .contact .container1 .contactform .inputbox input,
 .contact .container1 .contactform .inputbox textarea {
     width: 100%;
-    padding: 5px 0;
+    padding: 10px 0;
     font-size: 16px;
     margin: 10px 0;
     border: none;
@@ -865,8 +908,147 @@ main h3 {
     transform: translateY(-18px);
 }
 
+.demandes{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.demandes button{
+    background: #187894;
+    padding: 15px;
+    color: #fff;
+    box-shadow: 0 5px 5px #0c436b;
+    border-radius: 50px;
+
+}
+.demandes button:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
+.selec{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #0c436b;
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px #0c436b;
+}
+.selec .option{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+.fic{
+    font-size: 1.8rem;
+    border: 1px solid #0c436b;
+    padding: 20px;
+    color: #444;
+    background: #eee;
+    border-radius: 10px;
+}
+.curi{
+    width: 70%;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 5px 5px #0c436b;
+    outline: none;
+    margin-top: 10px;
+    background: #eee;
+    color: #0c436b;
+}
+::-webkit-file-upload-button{
+    color: #fff;
+    background: #187894;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px #0c436b;
+    outline: none;
+}
+::-webkit-file-upload-button:hover{
+    background: #0c436b;
+    color: #fff;
+}
+
+.form1, .form2{
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s ease-in;
+    transform: translateY(100px);
+}
+.formvisible{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition: .4s ease-out;
+}
+.form2{
+    position: absolute;
+    top: 155%;;
+    z-index: 2;
+    width: 100%;
+}
+
+
 /* fin section contact */
 
+/* recutement */
+
+.recru{
+    width: 60%;
+    margin: 90px auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+.ban-recru {
+    background-image: url(./images/recru.jpg);
+    background-repeat: no-repeat;
+}
+
+.ban-recru .content{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 0 5px 0 #fff;
+    background: rgba(24, 120, 148, 0.1);
+}
+
+.ban-recru .content h2 {
+    font-size: 7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+}
+
+.ban-recru .content p {
+    font-size: 3rem;
+    color: #eee;
+    line-height: 1.8;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.ban-recru .content p span {
+    color: #0c436b;
+    font-weight: 600;
+}
+
+.ban-recru .content a {
+    color: #fff;
+}
+
+.ban-recru .about h2 {
+    color: #eee;
+    font-size: 4rem;
+    text-align: center;
+}
+/* fin recrutement */
 /* section about */
 
 footer {
@@ -1048,14 +1230,6 @@ footer p {
         display: initial;
     }
 
-    .header .navbar a {
-        font-size: 1.8rem;
-        display: block;
-        margin: 25px 0;
-        padding: 8px 0;
-        text-align: center;
-    }
-
     h1 {
         text-transform: uppercase;
         font-size: 4.5rem;
@@ -1226,6 +1400,12 @@ footer p {
         padding: 5px 0;
         font-size: 2.2rem;
     }
+    .contact .container1 .contactform span {
+        font-size: 2.5rem;
+    }
+    .selec {
+        font-size: 2.5rem;
+    }
 
     .row_cert {
         margin-right: 50px;
@@ -1238,6 +1418,16 @@ footer p {
 
     main {
         margin: 20px;
+    }
+
+    .curi{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .recru{
+        width: 100%;
+        padding: 0 40px;
     }
 
 }
@@ -1354,6 +1544,9 @@ footer p {
         padding: 5px 0;
         font-size: 2rem;
     }
+    .contact .container1 .contactform span {
+        font-size: 2.5rem;
+    }
 
     .qualite {
         color: #444;
@@ -1372,6 +1565,11 @@ footer p {
     .nosservice .text_para h4 {
         font-size: 2.4rem;
         color: #444;
+    }
+
+    .curi{
+        width: 100%;
+        font-size: 2.5rem;
     }
 
 }
@@ -1458,43 +1656,35 @@ footer p {
     .about .content-sec .titre h1 {
         font-size: 4rem;
     }
-
     .about .content-sec p {
         text-align: justify;
     }
     .about .image-sec{
         width: 100%;
     }
-
     .contact .container1 {
         display: block;
     }
-
     .contact .container1 .contactinfo {
         width: 100%;
     }
-
     .contact .container1 .contactinfo .box {
         display: block;
     }
-
     .contact .container1 .contactinfo .box .icon {
         margin: 0 auto;
         border-radius: 50%;
         width: 60px;
         height: 60px;
     }
-
     .contact .container1 .contactinfo .box .text {
         margin: 0 auto;
     }
-
     .contact .container1 .contactinfo .box .text h2 {
         font-size: 3rem;
         margin: 0 auto;
         padding: 5px 0;
     }
-
     .contact .container1 .contactinfo .box .text p {
         margin: 0 auto;
         padding: 5px 0;
@@ -1507,6 +1697,13 @@ footer p {
 
     .contact .container1 .contactform h2 {
         font-size: 3rem;
+    }
+    .contact .container1 .contactform span {
+        font-size: 2.5rem;
+    }
+    .curi{
+        width: 100%;
+        font-size: 2rem;
     }
 
     footer {
@@ -1521,6 +1718,10 @@ footer p {
     .cert h2 {
         font-size: 2rem;
         font-weight: 600;
+    }
+
+    .recru{
+        width: 100%;
     }
 }
 
