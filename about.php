@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Propos</title>
+    <title>A Propos de Nous</title>
 
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@
     <section class="banniere" id="#banniere">
 
         <div class="content about">
-            <h2>Qui sommes nous</h2>
+            <h2>Nous sommes</h2>
         </div>
 
     </section>
@@ -60,8 +60,8 @@
     <!--About section-->
 <main class="certification">
     <h3>teckruns : une équipe des experts</h3>
-    <p>Nous sommes une équipe composée des concepteurs et developpeurs de site web, 
-        des ingénieurs DevOps, des administrateurs et techniciens Réseaux et des 
+    <p>Nous sommes une équipe composée des concepteurs et developpeurs de Site Web, 
+        des ingénieurs Cloud computing, des administrateurs et techniciens Réseaux et des 
         administrateurs des bases de Données. La variété de nos compétences 
         nous permet de répondre à vos bésoins les plus diversifiés.
         Notre équipe est là pour vous, alors confier nous vos systèmes informatique. 
@@ -84,6 +84,9 @@
             <div class="cert">
                 <h2>Certification AWS</h2>
             </div>
+            <div class="cert">
+                <h2>Certification Microsoft Azure</h2>
+            </div>
 
             <div class="cert">
                 <h2>Certification Cisco terraform</h2>
@@ -100,6 +103,7 @@
              <a href="#about" class="nav_link">A Propos</a>
              <a href="./index.php" class="nav_link">Services</a>
              <a href="./index.php" class="nav_link">Contact</a>
+             <a href="./recrutement.php" class="nav_link">Carrière</a>
          </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teckruns</title>
+    <title>Infonuagique/Cloud computing</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
@@ -102,7 +102,7 @@
             </div>
         </main>
 
-    <div class="container" id="services">
+        <div class="container" id="services">
         <h1> <span>Nos</span> Services</h1>
         <div class="row">
             <a href="./dev.php" class="service">
@@ -125,7 +125,7 @@
                 <img src="https://img.icons8.com/external-others-iconmarket/64/000000/external-computing-internet-of-things-others-iconmarket.png"/>
                 <h2>Infonuagique / Cloud computing</h2>
                 <p>
-                    Moderniser et dévélopper les approches commercial permet d'être plus compétitif et plus productif
+                    Moderniser et dévélopper des approches commerciales, vous permet d'être plus compétitif et productif
                 </p>
             </a>
 
@@ -139,16 +139,16 @@
             
             <a href="./donnees.php" class="service">
                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-cyber-security-kiranshastry-lineal-color-kiranshastry-3.png"/>
-                <h2>Gestion des Données</h2>
+                <h2>Gestion de Données</h2>
                 <p>
-                    optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
+                    Optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
                 </p>
             </a>
-            <a href="#" class="service">
+            <a href="./com_manager.php" class="service">
                 <img src="https://img.icons8.com/clouds/100/000000/manager.png"/>
                 <h2>Community manager</h2>
                 <p>
-                    Rapprochez-vous de vos clients grâce à votre précence sur les réseaux sociaux.  
+                    Rapprochez-vous de vos clients grâce à votre présence sur les réseaux sociaux.  
                 </p>
             </a>
         </div>
@@ -168,17 +168,17 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>                    
                     </div>
                     <div class="text">
-                        <h2>Telephone</h2>
+                        <h2>Infos</h2>
                         <p>
                             +228 90 47 88 14 <br>
                             +33 7 55 89 13 21
                         </p>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
                         <div class="text">
                             <h2>Email</h2>
                             <p>techruns228@gmail.com</p>
@@ -193,7 +193,7 @@
                 </div>
                 <div class="contactform">
                     <form action="">
-                        <h2>Envoyer le Message</h2>
+                        <h2>Envoyer un Message</h2>
                         <div class="inputbox">
                             <input type="text" name="nom" required="required">
                             <span>Votre nom</span>
@@ -203,14 +203,14 @@
                             <span>Nom de l'Entreprise</span>
                         </div>
                         <div class="inputbox">
-                            <input type="email" name="" required="required">
+                            <input type="email" name="email" required="required">
                             <span>Votre Email</span>
                         </div>
                         <div class="inputbox">
-                            <textarea name="" id="" cols="30" rows="10" required="required"></textarea>
-                            <span>Votre Message</span>
+                            <textarea name="message" cols="30" rows="10" required="required"></textarea>
+                            <span>Votre Message. . .</span>
                         </div>
-                        <input type="submit" class="btn" name="" value="Envoyer Message">
+                        <input type="submit" class="btn" value="Envoyer le Message">
                     </form>
                 </div>
             </div>
@@ -221,11 +221,11 @@
            <!-- <h2>Suivez nous sur :</h2> --> 
             
             <nav class="navbar">
-                <a href="#accueil" class="nav_link">Accueil</a>
+                <a href="./index.php" class="nav_link">Accueil</a>
                 <a href="./about.php" class="nav_link">A Propos</a>
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
-                <a href="#recrutement" class="nav_link">Carrière</a>
+                <a href="./recrutement.php" class="nav_link">Carrière</a>
             </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>

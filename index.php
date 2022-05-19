@@ -23,7 +23,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="navitem">
-                        <a href="#acceuil" class="nav_link active-link">Acceuil</a>
+                        <a href="./index.php" class="nav_link active-link">Acceuil</a>
                     </li>
                     <li class="navitem">
                         <a href="./about.php" class="nav_link">A Propos</a>
@@ -54,7 +54,7 @@
             <div class="messlides fade" style="display: block;">
                 <div class="test">
                     <h1>Teckruns</h1>
-                    <p>Une équipe<br>des concepteurs et dévéloppeurs des sites web</p>
+                    <p>Une équipe<br>de concepteurs et dévéloppeurs de Sites Web</p>
                 </div>
                 <img class="imag" src="./images/Banner-code.jpg" style="width: 100%; height: 100%;" alt="">
             </div>
@@ -99,8 +99,8 @@
                 <div class="titre"><h1>A Propos de <span>nous</span></h1></div>
                 <div class="content">
                     <h3>Qui sommes-nous ?</h3>
-                    <p> Teckruns est une équipe de professionnels, experts, dynamiques,
-                        expérimentés et spécialistes en TI capables de vous fournir des solutions 
+                    <p> Teckruns est une équipe d'experts professionnels, de spécialistes dynamiques et
+                        expérimentés en TI capables de vous fournir des solutions 
                         adaptées et modernes à votre entreprise en fonction de vos besoins et objectifs.</p>
                     <a href="./about.php" class="btn">En savoir plus</a>
                 </div> 
@@ -144,7 +144,7 @@
                 <img src="https://img.icons8.com/external-others-iconmarket/64/000000/external-computing-internet-of-things-others-iconmarket.png"/>
                 <h2>Infonuagique / Cloud computing</h2>
                 <p>
-                    Moderniser et dévélopper les approches commercial permet d'être plus compétitif et plus productif
+                    Moderniser et dévélopper des approches commerciales, vous permet d'être plus compétitif et productif
                 </p>
             </a>
 
@@ -158,16 +158,16 @@
             
             <a href="./donnees.php" class="service">
                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-cyber-security-kiranshastry-lineal-color-kiranshastry-3.png"/>
-                <h2>Gestion des Données</h2>
+                <h2>Gestion de Données</h2>
                 <p>
-                    optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
+                    Optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
                 </p>
             </a>
             <a href="./com_manager.php" class="service">
                 <img src="https://img.icons8.com/clouds/100/000000/manager.png"/>
                 <h2>Community manager</h2>
                 <p>
-                    Rapprochez-vous de vos clients grâce à votre précence sur les réseaux sociaux.  
+                    Rapprochez-vous de vos clients grâce à votre présence sur les réseaux sociaux.  
                 </p>
             </a>
         </div>
@@ -188,7 +188,7 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>                    
                     </div>
                     <div class="text">
-                        <h2>Telephone</h2>
+                        <h2>Infos</h2>
                         <p>
                             +228 90 47 88 14 <br>
                             +33 7 55 89 13 21
@@ -213,7 +213,7 @@
                 </div>
                 <div class="contactform">
                     <form action="">
-                        <h2>Envoyer le Message</h2>
+                        <h2>Envoyer un Message</h2>
                         <div class="inputbox">
                             <input type="text" name="nom" required="required">
                             <span>Votre nom</span>
@@ -230,7 +230,7 @@
                             <textarea name="message" cols="30" rows="10" required="required"></textarea>
                             <span>Votre Message. . .</span>
                         </div>
-                        <input type="submit" class="btn" value="Envoyer Le Message">
+                        <input type="submit" class="btn" value="Envoyer le Message">
                     </form>
                 </div>
             </div>
@@ -262,7 +262,7 @@
                 <a href="#about" class="nav_link">A Propos</a>
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
-                <a href="#recrutement" class="nav_link">Carrière</a>
+                <a href="./recrutement.php" class="nav_link">Carrière</a>
             </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>

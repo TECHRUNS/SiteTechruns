@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teckruns</title>
+    <title>Recrutement</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
@@ -32,7 +32,7 @@
                         <a href="./index.php" class="nav_link">Services</a>
                     </li>
                     <li class="navitem">
-                        <a href="#contact" class="nav_link">Contact</a>
+                        <a href="./index.php" class="nav_link">Contact</a>
                     </li>
                     <li class="navitem">
                         <a href="#recrutement" class="nav_link">Carrière</a>
@@ -156,10 +156,10 @@
            <!-- <h2>Suivez nous sur :</h2> --> 
             
             <nav class="navbar">
-                <a href="#accueil" class="nav_link">Accueil</a>
+                <a href="./index.php" class="nav_link">Accueil</a>
                 <a href="./about.php" class="nav_link">A Propos</a>
-                <a href="#services" class="nav_link">Services</a>
-                <a href="#contact" class="nav_link">Contact</a>
+                <a href="./index.php" class="nav_link">Services</a>
+                <a href="./index.php" class="nav_link">Contact</a>
                 <a href="#recrutement" class="nav_link">Carrière</a>
             </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teckruns</title>
+    <title>Developpement Web</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
@@ -54,7 +54,7 @@
         <section class="ban-code-dev" id="#banniere">
 
             <div class="content">
-                <h2>Dévéloppeur Web</h2>
+                <h2>Dévéloppeurs de Sites Web</h2>
             </div>
     
         </section>
@@ -85,17 +85,17 @@
             </div>
         </div>
        
-        <h3>pourquoi nous ?</h3>
+        <h3>Pourquoi nous ?</h3>
         
         <div class="raison">
             <div class="qualite">
-                <p>Nous sommes une équipe des concepteurs et dévéloppeurs polyvalents et experimentés 
-                    qui conçoivent et élabore des sites web pour les particuliers et des PME. Nous avons : </p>
+                <p> Nous sommes une équipe de concepteurs et dévéloppeurs polyvalents et experimentés 
+                    qui conçoivent et élaborent de Sites Web pour des particuliers et des PME. Nous avons des: </p>
                 <ul class="list">
-                    <li><i class="ri-check-double-line"></i>developpeurs fontend</li>
-                    <li><i class="ri-check-double-line"></i>developpeurs backend</li>
-                    <li><i class="ri-check-double-line"></i>Developpeurs fullsatack</li>
-                    <li><i class="ri-check-double-line"></i>concepteurs et developpeurs d'application mobile</li>
+                    <li><i class="ri-check-double-line"></i>Developpeurs fontend</li>
+                    <li><i class="ri-check-double-line"></i>Developpeurs backend</li>
+                    <li><i class="ri-check-double-line"></i>Web designer</li>
+                    <li><i class="ri-check-double-line"></i>Concepteurs et Developpeurs d'application mobile</li>
                 </ul>
             </div>
             <div class="img">
@@ -123,14 +123,11 @@
                 </p>
             </a>
                 
-            <a href="./devo.php" class="service">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="50" height="50"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#3498db"><path d="M103.2,13.76v3.44v58.48h24.08v24.08h-24.08v3.44v58.48h55.04v-61.92h-24.08v-24.08h24.08v-61.92zM110.08,20.64h41.28v6.88h-41.28zM60.2,27.52c-9.976,0.2064 -17.33465,3.34003 -21.90985,9.32563c-5.5384,7.1896 -6.71391,18.19679 -3.48031,32.71359c-1.376,1.72 -2.1672,4.29516 -1.72,7.08156c0.5504,6.2608 2.92722,8.94964 5.02562,10.08485c0.8944,4.4376 3.19732,9.66425 5.81172,12.41625v9.59438c-1.6168,3.6808 -6.70854,5.81495 -12.59094,8.25735c-10.3544,4.3344 -23.25547,9.73412 -24.32187,27.27812l-0.20156,3.64828h89.50719v-6.88h-81.94187c2.1672,-10.3888 10.66803,-13.93415 19.61203,-17.68375c7.3272,-3.096 14.27546,-5.9805 16.64906,-12.8261l0.16797,-0.55094v-12.45656l0.1411,-2.02906l-1.89469,-0.96078c-1.0664,-0.8256 -4.02158,-5.98936 -4.43438,-10.73656l-0.03359,-3.09062h-3.13094c-0.3096,-0.1376 -1.20884,-1.34805 -1.51844,-4.89125c-0.0344,-0.2408 -0.06719,-0.47891 -0.06719,-0.68531c0,-0.86 0.30906,-1.30855 0.30906,-1.37735l2.41203,-1.20265l-0.65844,-2.68078c-3.1992,-13.1408 -2.57489,-23.11975 1.79391,-28.83015c3.268,-4.2312 8.83596,-6.46613 16.54156,-6.63813c2.7864,0 7.70721,0.4472 9.39281,3.44l0.8264,1.44453l1.65281,0.24187c3.4056,0.4816 5.77463,1.96268 7.35703,4.50828c4.1968,6.88 1.65174,19.74453 -0.30906,25.55813l-1.13547,2.71437l2.65391,1.34375c0,0 0.68585,0.65011 0.37625,2.43891c-0.2752,3.268 -1.16825,4.47227 -1.20265,4.57547h-3.13094l-0.30906,3.13094c-0.4128,4.7472 -3.3712,9.91257 -4.3,10.66938l-1.89469,0.92719v2.12984c0,1.3416 -0.06638,2.57866 -0.10078,3.78266c-0.1376,2.5112 -0.24403,5.12882 0.13438,8.46562l0.17469,0.75922c2.3736,6.8456 9.52557,9.97358 16.47437,13.00078c3.3024,1.4104 6.53761,2.82107 9.39281,4.57547v-7.80719c-2.236,-1.1696 -4.50532,-2.13415 -6.63813,-3.09735c-5.9168,-2.58 -11.07653,-4.816 -12.62453,-8.6c-0.2408,-2.6144 -0.1368,-4.7515 -0.0336,-6.9875c0.0344,-0.7912 0.06719,-1.6125 0.06719,-2.4725c2.6488,-2.7176 4.95011,-7.94425 5.87891,-12.41625c2.064,-1.1008 4.44244,-3.72058 4.95844,-9.80938c0.4816,-2.8896 -0.27843,-5.46825 -1.58563,-7.22265c1.5824,-5.5384 4.75043,-19.9168 -0.99437,-29.2736c-2.408,-3.8872 -5.98426,-6.39894 -10.66265,-7.43094c-1.0664,-1.376 -2.68643,-2.75146 -5.02563,-3.74906c-2.3048,-1.032 -5.4008,-1.72 -9.46,-1.72zM110.08,34.4h41.28v6.88h-41.28zM110.08,48.16h41.28v20.64h-41.28zM130.72,55.04c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44zM110.08,106.64h41.28v6.88h-41.28zM110.08,120.4h41.28v6.88h-41.28zM110.08,134.16h41.28v20.64h-41.28zM130.72,141.04c-1.89986,0 -3.44,1.54014 -3.44,3.44c0,1.89986 1.54014,3.44 3.44,3.44c1.89986,0 3.44,-1.54014 3.44,-3.44c0,-1.89986 -1.54014,-3.44 -3.44,-3.44z"></path></g></g></svg>
-                <h2>DevOps</h2>
+            <a href="./cloud.php" class="service">
+                <img src="https://img.icons8.com/external-others-iconmarket/64/000000/external-computing-internet-of-things-others-iconmarket.png"/>
+                <h2>Infonuagique / Cloud computing</h2>
                 <p>
-                    automatiser les systèmes informatiques pour maximiser la productivité
+                    Moderniser et dévélopper des approches commerciales, vous permet d'être plus compétitif et productif
                 </p>
             </a>
 
@@ -144,9 +141,16 @@
             
             <a href="./donnees.php" class="service">
                 <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-cyber-security-kiranshastry-lineal-color-kiranshastry-3.png"/>
-                <h2>Gestion des Données</h2>
+                <h2>Gestion de Données</h2>
                 <p>
-                    optimiser les performances de votre base de Données pour un bon résultat 
+                    Optimiser le rendement de votre base de données afin d'obtenir un bon résultat.
+                </p>
+            </a>
+            <a href="./com_manager.php" class="service">
+                <img src="https://img.icons8.com/clouds/100/000000/manager.png"/>
+                <h2>Community manager</h2>
+                <p>
+                    Rapprochez-vous de vos clients grâce à votre présence sur les réseaux sociaux.  
                 </p>
             </a>
         </div>
@@ -166,17 +170,17 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>                    
                     </div>
                     <div class="text">
-                        <h2>Telephone</h2>
+                        <h2>Infos</h2>
                         <p>
                             +228 90 47 88 14 <br>
                             +33 7 55 89 13 21
                         </p>
                     </div>
-                </div>
-                <div class="box">
-                    <div class="icon">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
                         <div class="text">
                             <h2>Email</h2>
                             <p>techruns228@gmail.com</p>
@@ -191,24 +195,24 @@
                 </div>
                 <div class="contactform">
                     <form action="">
-                        <h2>Envoyer le Message</h2>
+                        <h2>Envoyer un Message</h2>
                         <div class="inputbox">
-                            <input type="text" name="" required="required">
+                            <input type="text" name="nom" required="required">
+                            <span>Votre nom</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="nom_entreprise" required="required">
                             <span>Nom de l'Entreprise</span>
                         </div>
                         <div class="inputbox">
-                            <input type="text" name="" required="required">
-                            <span>Votre Nom complet</span>
-                        </div>
-                        <div class="inputbox">
-                            <input type="email" name="" required="required">
+                            <input type="email" name="email" required="required">
                             <span>Votre Email</span>
                         </div>
                         <div class="inputbox">
-                            <textarea name="" id="" cols="30" rows="10" required="required"></textarea>
-                            <span>Votre Message</span>
+                            <textarea name="message" cols="30" rows="10" required="required"></textarea>
+                            <span>Votre Message. . .</span>
                         </div>
-                        <input type="submit" class="btn" name="" value="Envoyer Message">
+                        <input type="submit" class="btn" value="Envoyer le Message">
                     </form>
                 </div>
             </div>
@@ -219,10 +223,11 @@
            <!-- <h2>Suivez nous sur :</h2> --> 
             
             <nav class="navbar">
-                <a href="#accueil" class="nav_link">Accueil</a>
+                <a href="./index.php" class="nav_link">Accueil</a>
                 <a href="./about.php" class="nav_link">A Propos</a>
                 <a href="#services" class="nav_link">Services</a>
                 <a href="#contact" class="nav_link">Contact</a>
+                <a href="./recrutement.php" class="nav_link">Carrière</a>
             </nav>
             <p>&copy; 2022 Teckruns. Tout Droits Reservés</p>
     </footer>
