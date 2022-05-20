@@ -60,13 +60,13 @@
     <!--About section-->
 <main class="certification">
     <h3>teckruns : une équipe des experts</h3>
-    <p>Nous sommes une équipe composée des concepteurs et developpeurs de Site Web, 
+    <p> Nous sommes une équipe composée des concepteurs et developpeurs de Site Web, 
         des ingénieurs Cloud computing, des administrateurs et techniciens Réseaux et des 
         administrateurs des bases de Données. La variété de nos compétences 
         nous permet de répondre à vos bésoins les plus diversifiés.
-        Notre équipe est là pour vous, alors confier nous vos systèmes informatique. 
+        Alors confier vos systèmes informatique à notre équipe. 
     </p>
-        <h3>La certification</h3>
+        <h3>Nos certifications</h3>
     <p>
         Notre expertisme et notre professionnalisme vient du faite que chacune de nos équipes
         a déjà de l'expérience dans leurs domaine et est accréditée avec les certifications les plus reconnues.

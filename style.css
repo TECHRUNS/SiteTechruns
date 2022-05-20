@@ -162,7 +162,7 @@ h1 {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.8;
 }
 
@@ -523,8 +523,9 @@ h1 span {
 }
 
 .about .content-sec .content p {
-    margin: 10px 0;
+    margin: 10px auto;
     line-height: 1.5;
+    text-align: center;
 }
 
 /* A propos page*/
@@ -601,15 +602,13 @@ main h3 {
     grid-template-columns: 50% 50%;
     grid-gap: 50px;
     margin-bottom: 90px;
-    width: 90%;
-
+    width: 80%;
 }
 
 .cert {
     text-align: center;
-    padding: 25px 0;
+    padding: 20px;
     border-radius: 5px;
-    font-size: 1.5rem;
     cursor: pointer;
     background: transparent;
     box-shadow: 0 2px 5px rgba(24, 120, 148, 0.5);
@@ -619,6 +618,7 @@ main h3 {
 .cert h2 {
     font-weight: 600;
     margin-bottom: 10px;
+    font-size: 2rem;
 }
 
 .cert:hover {
@@ -634,10 +634,12 @@ main h3 {
 
 .certification p {
     margin-bottom: 40px;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .certification h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 30px;
 }
 
@@ -1154,7 +1156,7 @@ footer p {
     }
 
     .about .content p{
-        text-align: justify;
+        text-align: center;
         font-size: 2.2rem;
     }
 
@@ -1253,6 +1255,12 @@ footer p {
     }
 
     .ban-secu .content h2 {
+        font-size: 4rem;
+    }
+    .ban-recru .content h2 {
+        font-size: 4rem;
+    }    
+    .ban-com .content h2 {
         font-size: 4rem;
     }
 
@@ -1462,7 +1470,7 @@ footer p {
 
     .about .content-sec .content p {
         font-size: 2.8rem;
-        text-align: justify;
+        text-align: center;
     }
 
     .about .content-sec .titre h1 {
@@ -1505,6 +1513,12 @@ footer p {
     }
 
     .ban-secu .content h2 {
+        font-size: 4rem;
+    }
+    .ban-recru .content h2 {
+        font-size: 4rem;
+    } 
+    .ban-com .content h2 {
         font-size: 4rem;
     }
 
@@ -1624,6 +1638,13 @@ footer p {
     .ban-secu .content h2 {
         font-size: 3rem;
     }
+    .ban-recru .content h2 {
+        font-size: 3rem;
+        text-align: center;
+    } 
+    .ban-com .content h2 {
+        font-size: 3rem;
+    }
 
     .qualite {
         color: #444;
@@ -1657,7 +1678,7 @@ footer p {
         font-size: 4rem;
     }
     .about .content-sec p {
-        text-align: justify;
+        text-align:center;
     }
     .about .image-sec{
         width: 100%;

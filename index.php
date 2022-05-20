@@ -212,14 +212,14 @@
                     </ul>
                 </div>
                 <div class="contactform">
-                    <form action="">
+                    <form action="POST">
                         <h2>Envoyer un Message</h2>
                         <div class="inputbox">
                             <input type="text" name="nom" required="required">
                             <span>Votre nom</span>
                         </div>
                         <div class="inputbox">
-                            <input type="text" name="nom_entreprise" required="required">
+                            <input type="text" name="entreprise" required="required">
                             <span>Nom de l'Entreprise</span>
                         </div>
                         <div class="inputbox">
@@ -238,15 +238,16 @@
             
             <?php 
                 if (isset($_POST["message"])){
-                    $message = "Ce message vous a été envoyer depuis la page Contact du site teckruns.com
+                    $message = "Ce message vous a été envoyer depuis la page Contact du Site teckruns.com
                     Nom de l'Epediteur : " . $_POST["nom"] . "
-                    Nom d'Entreprise : " . $_POST["nom_entreprise"] . "
+                    Nom d'Entreprise : " . $_POST["entreprise"] . "
                     Email : " . $_POST["email"] . "
                     Message : " . $_POST["message"];
 
-                    $reponse = mail("benowola@gmail.com", $message, "From:contact@teckruns.com" . "\r\n" . "Reply_to:" . $_POST["email"]);
+                    $reponse = mail("benowola@gmail.com", $message, "From:contact@teckruns.com" 
+                                        . "\r\n" . "Reply_to:" . $_POST["email"]);
                     if ($reponse){
-                        echo "<span>Message envoyé! Merci de nous avoir contacter.</span>";
+                        echo "<p>Message envoyé! Merci de nous avoir contacter.</p>";
                     }
                 }
             ?>
