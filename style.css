@@ -1009,7 +1009,7 @@ main h3 {
 }
 
 .ban-recru {
-    background-image: url(./images/recru.jpg);
+    background-image: url(./images/entretien1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -1783,7 +1783,7 @@ footer p {
     padding: 15px;
     cursor: pointer;
     color: #fff;
-    transition: 0.2s;
+    transition: 0.3s;
     user-select: none;
 }
 
@@ -1804,31 +1804,20 @@ footer p {
     cursor: pointer;
 }
 
-.point {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.active,
-.point:hover {
+.active:hover {
     border-color: #0c436b;
 }
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.8s;
+    -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.8s;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
     from {
-        opacity: 0.8;
+        opacity: 0;
     }
 
     to {
@@ -1851,14 +1840,14 @@ footer p {
     color: #fff;
     letter-spacing: 2px;
     line-height: 35px;
-    top: 40%;
+    top: 30%;
     left: 20%;
     -webkit-animation-name: position;
     -webkit-animation-duration: 2s;
     animation-name: position;
     animation-duration: 2s;
     z-index: 1;
-    background: rgba(12, 17, 17, 0.8);
+    background: rgba(12, 17, 17, 0.7);
     border-radius: 10px;
 }
 
@@ -1883,7 +1872,8 @@ footer p {
 }
 
 .test h1 {
-    color: #fff;
+    color: #0c436b;
+    text-shadow: var(--text-shadow);
     font-weight: bold;
     margin: 20px;
     font-size: 5rem;
@@ -1909,7 +1899,7 @@ footer p {
     }
 
     to {
-        transform: scale(1.5, 1.5);
+        transform: scale(1.2, 1.2);
     }
 }
 
@@ -1919,7 +1909,7 @@ footer p {
     }
 
     to {
-        transform: scale(1.5, 1.5);
+        transform: scale(1.2, 1.2);
     }
 }
 
@@ -1929,7 +1919,7 @@ footer p {
     }
 
     .test {
-        line-height: 25px;
+        line-height: 3rem;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1967,9 +1957,12 @@ footer p {
         font-size: 2.2rem;
         padding: 10px;
     }
+    .test{
+        width: 75%;
+    }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 664px) {
     .test h1 {
         font-size: 3.2rem;
     }
@@ -1977,9 +1970,12 @@ footer p {
         font-size: 2rem;
         padding: 8px;
     }
+    .test{
+        width: 75%;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .test h1 {
         font-size: 2.5rem;
     }
@@ -1988,6 +1984,7 @@ footer p {
     }
     .test{
         background: rgba(12, 17, 17, 0.5);
+        width: 75%;
     }
 }
 

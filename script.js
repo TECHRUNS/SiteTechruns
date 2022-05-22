@@ -1,3 +1,4 @@
+const monslide = document.querySelectorAll(".messlides");
 const form1 = document.getElementById("btn1");
 const form2 = document.getElementById("btn2");
 const formulaire1 = document.querySelector(".form1");
@@ -19,6 +20,22 @@ if (navClose) {
   });
 }
 
+// Partie formulaire
+
+form1.addEventListener("click", () => {
+  formulaire1.classList.add("formvisible");
+});
+form1.addEventListener("click", () => {
+  formulaire2.classList.remove("formvisible");
+});
+form2.addEventListener("click", () => {
+  formulaire2.classList.add("formvisible");
+});
+form2.addEventListener("click", () => {
+  formulaire1.classList.remove("formvisible");
+});
+
+// fin formulaire
 /* remove menu mobile */
 
 const navLink = document.querySelectorAll(".nav_link");
@@ -63,59 +80,33 @@ function scrolActive() {
   });
 }
 
-// Partie formulaire
-
-form1.addEventListener("click", () => {
-  formulaire1.classList.add("formvisible");
-});
-form1.addEventListener("click", () => {
-  formulaire2.classList.remove("formvisible");
-});
-form2.addEventListener("click", () => {
-  formulaire2.classList.add("formvisible");
-});
-form2.addEventListener("click", () => {
-  formulaire1.classList.remove("formvisible");
-});
-
-// fin formulaire
 /* partie slide */
-const monslide = document.querySelectorAll(".messlides");
-point = document.querySelectorAll(".point");
 
 let compteur = 1;
-slidefun(compteur);
-let timer = setInterval(autoslide, 5000);
+function_slide(compteur);
+let temps = setInterval(autoslide, 5000);
 function autoslide() {
   compteur += 1;
-  slidefun(compteur);
+  function_slide(compteur);
 }
 function plusSlides(n) {
   compteur += n;
-  slidefun(compteur);
-  resetTimer();
-}
-function plusSlides(n) {
-  compteur -= n;
-  slidefun(compteur);
-  resetTimer();
+  function_slide(compteur);
+  resetTemps();
 }
 function currentSlide(n) {
   compteur += n;
-  slidefun(compteur);
-  resetTimer();
+  function_slide(compteur);
+  resetTemps();
 }
-function resetTimer() {
-  clearInterval(timer);
-  timer = setInterval(autoslide, 5000);
+function resetTemps() {
+  clearInterval(temps);
+  temps = setInterval(autoslide, 5000);
 }
-function slidefun(n) {
+function function_slide(n) {
   let i;
   for (i = 0; i < monslide.length; i++) {
     monslide[i].style.display = "none";
-  }
-  for (i = 0; i < point.length; i++) {
-    point[i].classList.remove("active");
   }
   if (n > monslide.length) {
     compteur = 1;
@@ -123,8 +114,7 @@ function slidefun(n) {
   if (n < 1) {
     compteur = monslide.length;
   }
-  monslide[compteur - 1].style.display = "block";
-  point[compteur - 1].classList.add("active");
+  monslide[compteur - 1].style.display = "none";
 }
 
 /*fin partie slide*/

@@ -79,15 +79,10 @@
                 </div>
                 <img class="imag" src="./images/data.jpg" style="width: 100%; height: 100%;" alt="">
             </div>
-            <a class="prec" onclick="plusSlides(-1)">&#10094</a>
-            <a class="suiv" onclick="plusSlides(1)">&#10095</a>
-    
-            <div class="pointbox" style="text-align: center;">
-                <span class="point" class="currentSlide(1)"></span>
-                <span class="point" class="currentSlide(2)"></span>
-                <span class="point" class="currentSlide(3)"></span>
-                <span class="point" class="currentSlide(4)"></span>
-            </div>
+
+                <a class="prec" onclick="plusSlides(-1)">&#10094</a>
+                <a class="suiv" onclick="plusSlides(1)">&#10095</a>
+            
         </div>
 
     <!-- End banniere section -->
